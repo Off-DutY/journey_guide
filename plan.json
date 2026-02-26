@@ -129,7 +129,7 @@
         "tr": "步行",
         "ti": "午餐時間 (教堂或彩虹街附近)",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=64.1459,-21.9326"
       },
       {
         "t": "14:15-14:30",
@@ -419,7 +419,7 @@
         "tr": "步行",
         "ti": "Höfn 午餐",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=64.2539,-15.2082"
       },
       {
         "t": "15:00-15:30",
@@ -828,7 +828,7 @@
         "tr": "巴士",
         "ti": "搭乘 Flytoget 前往市區",
         "n": "前往 Oslo S 奧斯陸中央車站",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=59.9116,10.7501"
       },
       {
         "t": "13:10-13:20",
@@ -854,7 +854,7 @@
         "n": "Tigeren på Jernbanetorget 開始沿街往皇宮前進\n包含：奧斯陸主教座堂、國會大廈、王宮、市政廳、諾貝爾和平中心、阿克斯胡斯城堡",
         "intro": "奧斯陸是一座完美融合現代設計與歷史底蘊的北歐首都。",
         "story": "其中外觀低調的紅磚「市政廳」是每年12月10日諾貝爾和平獎的頒獎地；而建於13世紀末的「阿克斯胡斯城堡」則是挪威最重要的軍事要塞，它曾成功抵禦過多次瑞典軍隊的猛烈圍攻，在歷史上從未被武力攻陷過。",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=59.9074,10.7531"
       },
       {
         "t": "16:30-17:00",
@@ -872,7 +872,7 @@
         "tr": "步行",
         "ti": "晚餐 & 返回飯店 Citybox Oslo",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=59.9121,10.7478"
       }
     ]
   },
@@ -960,7 +960,7 @@
         "tr": "-",
         "ti": "飯店吃早餐 & 退房",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=60.8806,6.8415"
       },
       {
         "t": "09:20",
@@ -1016,7 +1016,7 @@
         "tr": "步行",
         "ti": "前往搭乘纜車",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=60.3929,5.3268"
       },
       {
         "t": "16:30-16:40",
@@ -1034,7 +1034,7 @@
         "tr": "-",
         "ti": "晚餐 & 返回飯店",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=60.391,5.3275"
       }
     ]
   },
@@ -1050,7 +1050,7 @@
         "tr": "-",
         "ti": "飯店吃早餐",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=60.391,5.3275"
       },
       {
         "t": "10:00-10:30",
@@ -1095,7 +1095,7 @@
         "tr": "步行",
         "ti": "晚餐 & 返回飯店",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=60.391,5.3275"
       }
     ]
   },
@@ -1111,7 +1111,7 @@
         "tr": "-",
         "ti": "飯店吃早餐 + 退房 + 寄放行李",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=60.391,5.3275"
       },
       {
         "t": "11:03-11:15",
@@ -1149,7 +1149,7 @@
         "tr": "-",
         "ti": "回住宿拿行李",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=60.391,5.3275"
       },
       {
         "t": "16:00-16:30",
@@ -1171,7 +1171,7 @@
         "tr": "飛機",
         "ti": "抵達哥本哈根凱斯楚普機場 (CPH)",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=55.618,12.6561"
       },
       {
         "t": "-",
@@ -1294,7 +1294,7 @@
         "tr": "飛機",
         "ti": "抵達布魯塞爾機場 (BRU)",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=50.9014,4.4844"
       },
       {
         "t": "10:24-10:47",
@@ -1315,7 +1315,7 @@
         "tr": "-",
         "ti": "布魯塞爾市區半日遊 Part 1",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=50.8467,4.3525"
       },
       {
         "t": "~12:30",
@@ -1492,7 +1492,7 @@
         "tr": "-",
         "ti": "布魯塞爾市區半日遊 Part 2",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=50.8467,4.3525"
       },
       {
         "t": "-",
@@ -1515,7 +1515,7 @@
         "tr": "-",
         "ti": "拿行李",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=50.8388,4.336"
       },
       {
         "t": "12:40-12:50",
@@ -1529,7 +1529,7 @@
         "tr": "-",
         "ti": "前往月台等候",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=50.8358,4.3358"
       },
       {
         "t": "13:53 出發",
@@ -1575,7 +1575,7 @@
         "tr": "-",
         "ti": "回程",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=52.7392,6.0803"
       }
     ]
   },
@@ -1659,7 +1659,7 @@
         "tr": "步行",
         "ti": "最後購物與打包",
         "n": "",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=52.36,4.8852"
       }
     ]
   },
@@ -1683,7 +1683,7 @@
         "ti": "史基浦機場出發返回臺灣",
         "c": "約 NT$35K-50K",
         "n": "需轉機；提早 3 小時到機場",
-        "navigation": ""
+        "navigation": "https://maps.google.com/?q=52.3105,4.7683"
       }
     ]
   },
