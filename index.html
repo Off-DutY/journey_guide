@@ -53,10 +53,10 @@
     </style>
 </head>
 
-<body class="text-gray-800 antialiased h-screen flex flex-col overflow-hidden">
+<body class="text-gray-800 antialiased flex flex-col overflow-hidden" style="height: 100vh; height: 100dvh;">
 
     <!-- Header & Navigation -->
-    <header class="bg-white shadow-sm z-20 flex-shrink-0">
+    <header class="bg-white shadow-sm z-20 flex-shrink-0 sticky top-0">
         <div
             class="px-4 pt-6 pb-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white rounded-b-3xl shadow-lg flex justify-between items-start">
             <div>
@@ -349,14 +349,21 @@
                     currentActiveDayId = dayInfo.id;
                     renderTabs();
                     renderContent(dayInfo.id);
-                    btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                    // 使用 scrollTo 精確控制 tab 容器滾動，避免 scrollIntoView 連帶捲動 body
+                    const container = document.getElementById('day-tabs');
+                    const scrollLeft = btn.offsetLeft - container.offsetWidth / 2 + btn.offsetWidth / 2;
+                    container.scrollTo({ left: scrollLeft, behavior: 'smooth' });
                 };
                 tabsContainer.appendChild(btn);
             });
 
             setTimeout(() => {
                 const activeBtn = tabsContainer.children[currentActiveDayId];
-                if (activeBtn) activeBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                if (activeBtn) {
+                    // 使用 scrollTo 精確控制 tab 容器滾動，避免 scrollIntoView 連帶捲動 body
+                    const scrollLeft = activeBtn.offsetLeft - tabsContainer.offsetWidth / 2 + activeBtn.offsetWidth / 2;
+                    tabsContainer.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+                }
             }, 100);
         }
 
