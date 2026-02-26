@@ -396,9 +396,8 @@
             dayData.events.forEach((event, index) => {
                 const iconName = getTransportIcon(event.tr);
                 const isLast = index === dayData.events.length - 1;
-                const mapLink = `https://www.google.com/maps/search/?api=1&query=${getMapQuery(event.ti)}`;
-
-                const showMapBtn = !event.ti.includes('早餐') && !event.ti.includes('退房') && !event.ti.includes('搭機');
+                const mapLink = event.navigation || '';
+                const showMapBtn = !!mapLink;
                 const hasInfo = event.n || event.intro || event.story;
 
                 const infoBtnHtml = hasInfo ? `
