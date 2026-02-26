@@ -27,7 +27,7 @@
         "tr": "叫車",
         "ti": "前往桃園機場第二航廈",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%E6%A1%83%E5%9C%92%E6%A9%9F%E5%A0%B4%E7%AC%AC%E4%BA%8C%E8%88%AA%E5%BB%88"
+        "navigation": "https://maps.google.com/?q=25.0773,121.2322"
       },
       {
         "t": "08:40 出發",
@@ -72,14 +72,14 @@
         "ti": "取車 - Blue Car Rental Iceland",
         "o": "05:00–02:00",
         "n": "租車 02/28~03/08 共九天；Booking Code: VIH9UX",
-        "navigation": "https://maps.google.com/?q=Blue%20Car%20Rental%20Iceland"
+        "navigation": "https://maps.google.com/?q=63.9932,-22.6056"
       },
       {
         "t": "00:40-01:30",
         "tr": "自駕",
         "ti": "Check in - Refurinn Guesthouse",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Refurinn%20Guesthouse"
+        "navigation": "https://maps.google.com/?q=64.1505,-21.9457"
       },
       {
         "t": "09:30-09:45",
@@ -90,7 +90,7 @@
         "n": "適合夜景拍攝",
         "intro": "哈帕音樂廳是冰島雷克雅維克的標誌性建築，以其獨特的玻璃外牆聞名，設計靈感來自冰島的玄武岩地貌。",
         "story": "於2011年開幕。在2008年冰島金融危機期間，它的建設曾一度停擺，幾乎成為爛尾樓，最終由政府全資接手完成，成為冰島從經濟危機中復甦與重生的象徵。",
-        "navigation": "https://maps.google.com/?q=Harpa%20%E5%93%88%E5%B8%95%E9%9F%B3%E6%A8%82%E5%BB%B3"
+        "navigation": "https://maps.google.com/?q=64.1504,-21.9326"
       },
       {
         "t": "10:40-10:50",
@@ -101,7 +101,7 @@
         "n": "建議搭配夕陽或白天觀賞",
         "intro": "一座形似維京船的不鏽鋼海岸雕塑，是雷克雅維克最上鏡的地標之一。",
         "story": "由冰島藝術家Jón Gunnar Árnason設計。它其實並非傳統的維京海盜船，而是一艘「夢想之船」，象徵著對未知領土的渴望、希望與自由。",
-        "navigation": "https://maps.google.com/?q=Sun%20Voyager%20%E5%A4%AA%E9%99%BD%E8%88%AA%E6%B5%B7%E8%80%85%E9%9B%95%E5%A1%91"
+        "navigation": "https://maps.google.com/?q=64.1476,-21.9223"
       },
       {
         "t": "11:15-11:30",
@@ -111,7 +111,7 @@
         "n": "教堂前方的著名街道",
         "intro": "雷克雅維克市中心著名的購物與藝術街，路面常被漆成彩虹色。",
         "story": "彩虹街的誕生是為了支持一年一度的雷克雅維克驕傲大遊行，由市民主動參與繪製，強烈象徵著冰島對LGBTQ+社群的友善、包容與支持。",
-        "navigation": "https://maps.google.com/?q=Sk%C3%B3lav%C3%B6r%C3%B0ust%C3%ADgur%20%E5%BD%A9%E8%99%B9%E8%A1%97"
+        "navigation": "https://maps.google.com/?q=64.1459,-21.9326"
       },
       {
         "t": "12:15",
@@ -122,7 +122,7 @@
         "n": "冰島地標；可登塔俯瞰市區",
         "intro": "冰島最大的教堂，高74.5公尺，外觀呈現管風琴或玄武岩柱的雄偉造型。",
         "story": "以冰島著名詩人Hallgrímur Pétursson命名。設計師Guðjón Samúelsson靈感完全來自冰島特有的火山冰川地貌。建造過程長達41年(1945-1986)，是冰島國家認同的重要建築。",
-        "navigation": "https://maps.google.com/?q=Hallgr%C3%ADmskirkja%20%E5%93%88%E7%88%BE%E6%A0%BC%E6%9E%97%E5%A7%86%E6%95%99%E5%A0%82"
+        "navigation": "https://maps.google.com/?q=64.1417,-21.9266"
       },
       {
         "t": "12:50-13:00",
@@ -139,7 +139,7 @@
         "n": "",
         "intro": "位於市中心的寧靜湖泊，常有許多天鵝、鴨子和海鷗聚集。",
         "story": "當地人親切地稱其為「最大的麵包湯」，因為大家喜歡來此餵鳥。冬天湖面結冰時，市政府甚至會注入地熱水融化部分冰層，確保水鳥們有安全的棲息之地，展現了冰島人與自然共存的溫情。",
-        "navigation": "https://maps.google.com/?q=Tj%C3%B6rnin%20%E7%89%B9%E7%B4%84%E5%AF%A7%E6%B9%96"
+        "navigation": "https://maps.google.com/?q=64.1415,-21.9426"
       },
       {
         "t": "15:15-15:50",
@@ -150,7 +150,7 @@
         "n": "觀景台、冰洞展覽、北極光天文館",
         "intro": "建於山丘上的半球形建築，擁有絕佳的360度觀景台及冰島自然展覽。",
         "story": "原址原本是六個為城市供暖的巨大地熱水槽。1991年，當局決定將其改建為多功能複合式建築，頂部的玻璃穹頂由數千塊中空玻璃組成，將實用工業設施轉變為耀眼的文化地標。",
-        "navigation": "https://maps.google.com/?q=Perlan%20%E7%8F%8D%E7%8F%A0%E6%A8%93"
+        "navigation": "https://maps.google.com/?q=64.1294,-21.9191"
       },
       {
         "t": "17:00-17:30",
@@ -161,14 +161,14 @@
         "n": "七步儀式體驗；預計 18:40 可以看夕陽",
         "intro": "近年新開幕的無邊際地熱溫泉，以能飽覽北大西洋壯闊海景的絕佳視野聞名。",
         "story": "其招牌的「七步洗浴儀式」靈感源自冰島古老的沐浴文化，完美結合了溫泉、冷水冷卻、桑拿與海鹽去角質，旨在還原維京時代流傳至今的身心療癒傳統。",
-        "navigation": "https://maps.google.com/?q=Sky%20Lagoon%20%E5%A4%A9%E7%A9%BA%E4%B9%8B%E6%B9%96%E6%BA%AB%E6%B3%89"
+        "navigation": "https://maps.google.com/?q=64.1158,-21.9411"
       },
       {
         "t": "20:30",
         "tr": "自駕",
         "ti": "返回住宿 - Refurinn Guesthouse",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Refurinn%20Guesthouse"
+        "navigation": "https://maps.google.com/?q=64.1505,-21.9457"
       }
     ]
   },
@@ -185,7 +185,7 @@
         "ti": "退房 - Refurinn Guesthouse",
         "c": "租車約 ISK 8K-15K/天",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Refurinn%20Guesthouse"
+        "navigation": "https://maps.google.com/?q=64.1505,-21.9457"
       },
       {
         "t": "09:30-10:30",
@@ -196,7 +196,7 @@
         "n": "UNESCO 世界遺產；板塊交界處\n阿爾曼納斷層、法律石、絲浮拉裂縫、溺刑池、Öxarárfoss 瀑布",
         "intro": "歐亞與北美板塊交界的峽谷地帶，也是冰島自然與歷史的絕對聖地。",
         "story": "西元930年，冰島人在此建立了世界上最早的民主議會之一「阿爾庭」(Alþingi)，一直運作到1798年。這裡不僅是地質奇觀，更是冰島民族精神與獨立的發源地。",
-        "navigation": "https://maps.google.com/?q=Thingvellir%20%E8%BE%9B%E6%A0%BC%E9%9F%8B%E5%BE%B7%E5%88%A9%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92"
+        "navigation": "https://maps.google.com/?q=64.256,-21.1298"
       },
       {
         "t": "12:30-13:10",
@@ -206,7 +206,7 @@
         "n": "選去；導航設定「Brúarfoss Parking」",
         "intro": "隱藏在冰島南部的「藍色秘境瀑布」，以其極致的蒂芬妮藍色水流聞名。",
         "story": "過去曾因為步道極度泥濘且位在私人土地附近而難以抵達。水質那不可思議的冰藍色，來自於冰川融水中懸浮的微小火山礦物質折射陽光所致。",
-        "navigation": "https://maps.google.com/?q=Br%C3%BAarfoss%20Parking"
+        "navigation": "https://maps.google.com/?q=64.2402,-20.5238"
       },
       {
         "t": "14:15-14:30",
@@ -217,7 +217,7 @@
         "n": "Strokkur 間歇泉約每 5-10 分鐘噴發；停車場旁有免費廁所",
         "intro": "冰島最著名的地熱活躍區，其中Strokkur間歇泉最為活躍，每隔幾分鐘就會噴發出高達數十公尺的水柱。",
         "story": "英文中的「Geyser」(間歇泉)一詞，正是源自於此地的老大間歇泉(The Great Geysir)。雖然大間歇泉現因地質變動已進入休眠，但旁邊的Strokkur依舊每天充滿活力地迎客。",
-        "navigation": "https://maps.google.com/?q=Geysir%20%E9%96%93%E6%AD%87%E6%B3%89%E5%9C%B0%E7%86%B1%E5%8D%80"
+        "navigation": "https://maps.google.com/?q=64.3138,-20.2995"
       },
       {
         "t": "15:30-15:50",
@@ -228,7 +228,7 @@
         "n": "冰島最著名瀑布之一；上層有餐廳和免費廁所",
         "intro": "又稱「黃金瀑布」，寬闊的水流分為兩層跌入深邃的峽谷，氣勢磅礴，常能看見巨大的彩虹。",
         "story": "20世紀初，外國投資者企圖在此建造水力發電廠，當地農場主的女兒Sigríður Tómasdóttir誓言若瀑布被毀便投水自盡。她的抗爭最終保住了這片自然奇觀，她也因此被尊為冰島第一位環保運動者。",
-        "navigation": "https://maps.google.com/?q=Gullfoss%20%E5%8F%A4%E4%BD%9B%E6%96%AF%E7%80%91%E5%B8%83"
+        "navigation": "https://maps.google.com/?q=64.3223,-20.1193"
       },
       {
         "t": "16:50-17:40",
@@ -239,14 +239,14 @@
         "n": "選去；附近有 OB 加油站可上廁所",
         "intro": "一個約有3000年歷史的火山口湖，呈現美麗的紅褐色岩壁與充滿神秘感的藍綠色湖水。",
         "story": "與多數由猛烈爆發形成的火山口不同，地質學家認為它可能是一個岩漿庫在火山爆發後底部崩塌而成的凹陷，後來積存了地下水才形成現今的靜謐湖泊。",
-        "navigation": "https://maps.google.com/?q=Kerid%20Crater%20%E5%87%B1%E7%91%9E%E6%96%AF%E7%81%AB%E5%8F%A3%E6%B9%96"
+        "navigation": "https://maps.google.com/?q=64.0413,-20.8851"
       },
       {
         "t": "18:20-19:00",
         "tr": "自駕",
         "ti": "前往住宿 - Arhus Cottage and Camping",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Arhus%20Cottage%20and%20Camping"
+        "navigation": "https://maps.google.com/?q=63.8331,-20.4064"
       }
     ]
   },
@@ -262,7 +262,7 @@
         "tr": "-",
         "ti": "退房 - Arhus Cottage and Camping",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Arhus%20Cottage%20and%20Camping"
+        "navigation": "https://maps.google.com/?q=63.8331,-20.4064"
       },
       {
         "t": "08:30-09:00",
@@ -273,14 +273,14 @@
         "n": "水濂洞瀑布，可走到瀑布後方；冬天注意結冰",
         "intro": "著名的「水濂洞瀑布」，落差約60公尺，最大的特色是遊客可以沿著小徑走到瀑布後方，感受360度的震撼。",
         "story": "瀑布的源頭是覆蓋在艾雅法拉火山(Eyjafjallajökull)上的冰川融水。這座火山曾在2010年發生世紀大爆發，噴發的火山灰曾導致整個歐洲航空大癱瘓。",
-        "navigation": "https://maps.google.com/?q=Seljalandsfoss%20%E5%A1%9E%E9%87%8C%E9%9B%85%E8%98%AD%E7%80%91%E5%B8%83"
+        "navigation": "https://maps.google.com/?q=63.6159,-19.9928"
       },
       {
         "t": "09:30-10:10",
         "tr": "自駕",
         "ti": "Sólheimajökull 索爾黑馬冰川停車場",
         "n": "南岸冰川健行體驗，需訂購活動",
-        "navigation": "https://maps.google.com/?q=S%C3%B3lheimaj%C3%B6kull%20%E7%B4%A2%E7%88%BE%E9%BB%91%E9%A6%AC%E5%86%B0%E5%B7%9D%E5%81%9C%E8%BB%8A%E5%A0%B4"
+        "navigation": "https://maps.google.com/?q=63.5304,-19.3704"
       },
       {
         "t": "10:30-13:30",
@@ -290,7 +290,7 @@
         "n": "已預訂",
         "intro": "位於冰島南岸的冰川舌，是體驗冰川健行最熱門的地點。",
         "story": "由於全球暖化，這座壯麗的冰川正以每年數十公尺的速度快速消退。冰川表面覆蓋的黑色火山灰，則是昔日卡特拉(Katla)等多座火山爆發留下的歷史印記，形成黑白相間的奇特地貌。",
-        "navigation": "https://maps.google.com/?q=S%C3%B3lheimaj%C3%B6kull%20%E7%B4%A2%E7%88%BE%E9%BB%91%E9%A6%AC%E5%86%B0%E5%B7%9D%E5%81%A5%E8%A1%8C"
+        "navigation": "https://maps.google.com/?q=63.5304,-19.3704"
       },
       {
         "t": "13:45-14:00",
@@ -301,7 +301,7 @@
         "n": "彩虹瀑布，可爬階梯到瀑布頂端；停車場旁有廁所",
         "intro": "寬25公尺、高60公尺的巨型瀑布。因水氣豐沛，只要在晴天造訪，幾乎都能看到美麗的彩虹。",
         "story": "傳說第一位在該地區定居的維京人Þrasi Þórólfsson將一個裝滿黃金的寶箱藏在瀑布後方。後來有人找到了寶箱，卻在拖拉時只抓下了側面的拉環，寶箱便消失在水霧中。該枚拉環現今還保存在當地的博物館裡。",
-        "navigation": "https://maps.google.com/?q=Sk%C3%B3gafoss%20%E6%96%AF%E7%A7%91%E5%8A%A0%E7%88%BE%E7%80%91%E5%B8%83"
+        "navigation": "https://maps.google.com/?q=63.5321,-19.5112"
       },
       {
         "t": "15:00-15:30",
@@ -312,14 +312,14 @@
         "n": "注意海浪危險；玄武岩柱",
         "intro": "世界著名的黑沙灘，以其驚濤駭浪、壯觀的六角形玄武岩柱牆及海中奇石聞名。",
         "story": "冰島民間傳說中，海面上矗立的玄武岩巨石(Reynisdrangar)是兩隻巨大的巨魔。他們試圖在夜裡將一艘三桅船拖上岸，卻因來不及在天亮前完成，被清晨的第一道陽光照射後，永遠化作了石頭。",
-        "navigation": "https://maps.google.com/?q=Reynisfjara%20%E9%BB%91%E6%B2%99%E7%81%98"
+        "navigation": "https://maps.google.com/?q=63.4044,-19.0453"
       },
       {
         "t": "18:00",
         "tr": "自駕",
         "ti": "前往住宿 - Farmhouse Lodge",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Farmhouse%20Lodge"
+        "navigation": "https://maps.google.com/?q=63.4376,-19.1898"
       }
     ]
   },
@@ -335,14 +335,14 @@
         "tr": "-",
         "ti": "退房 - Farmhouse Lodge",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Farmhouse%20Lodge"
+        "navigation": "https://maps.google.com/?q=63.4376,-19.1898"
       },
       {
         "t": "09:20-09:40",
         "tr": "自駕",
         "ti": "前往集合點 (Vik餐廳外停車場)",
         "n": "尋找 Arctic Adventures 標誌的 Super Jeep",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%E9%9B%86%E5%90%88%E9%BB%9E%20%28Vik%E9%A4%90%E5%BB%B3%E5%A4%96%E5%81%9C%E8%BB%8A%E5%A0%B4%29"
+        "navigation": "https://maps.google.com/?q=63.4188,-19.0069"
       },
       {
         "t": "10:00-13:00",
@@ -353,7 +353,7 @@
         "n": "已預訂",
         "intro": "位於卡特拉火山上方的天然冰洞，因火山灰的交織呈現獨特的黑白或藍黑紋理。",
         "story": "卡特拉是冰島最危險且活躍的火山之一，沉睡在厚重的Mýrdalsjökull冰川下。在這個冰火交融的極端環境中探索，能深刻感受到大自然令人敬畏的力量。",
-        "navigation": "https://maps.google.com/?q=Katla%20Ice%20Cave%20%E5%8D%A1%E7%89%B9%E6%8B%89%E5%86%B0%E6%B4%9E"
+        "navigation": "https://maps.google.com/?q=63.4188,-19.0069"
       },
       {
         "t": "13:00",
@@ -371,14 +371,14 @@
         "n": "可看浮冰；停車場商店有簡單餐點與免費廁所。鑽石沙灘大停車場對面，600 公尺；需付停車費",
         "intro": "冰島最大的冰河湖，湖面漂浮著從冰川崩解下來的巨大藍色浮冰；碎冰被沖刷至黑沙灘上，宛如閃爍的鑽石。",
         "story": "令人驚訝的是，這座廣闊的湖泊其實形成於1930年代左右。由於氣候急遽暖化，湖泊面積在過去數十年間不斷擴大。這裡也是多部好萊塢大片(如《007：誰與爭鋒》、《古墓奇兵》、《星際效應》)的知名拍攝地。",
-        "navigation": "https://maps.google.com/?q=J%C3%B6kuls%C3%A1rl%C3%B3n%20%E5%82%91%E5%8F%A4%E6%B2%99%E9%BE%8D%E5%86%B0%E6%B2%B3%E6%B9%96%20%26%20%E9%91%BD%E7%9F%B3%E6%B2%99%E7%81%98"
+        "navigation": "https://maps.google.com/?q=64.0784,-16.2306"
       },
       {
         "t": "18:00-19:00",
         "tr": "自駕",
         "ti": "前往住宿 - Sauðanes Guesthouse",
         "n": "晚餐品嚐龍蝦湯",
-        "navigation": "https://maps.google.com/?q=Sau%C3%B0anes%20Guesthouse"
+        "navigation": "https://maps.google.com/?q=64.2807,-15.1515"
       }
     ]
   },
@@ -394,7 +394,7 @@
         "tr": "自駕",
         "ti": "前往冰河湖停車場集合",
         "n": "從赫本(Höfn)出發約 1h10m；尋找 Arctic Adventures 超級吉普車",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%E5%86%B0%E6%B2%B3%E6%B9%96%E5%81%9C%E8%BB%8A%E5%A0%B4%E9%9B%86%E5%90%88"
+        "navigation": "https://maps.google.com/?q=64.0784,-16.2306"
       },
       {
         "t": "09:30-12:30",
@@ -405,14 +405,14 @@
         "n": "2-3 月是最佳冰洞季節，需訂購活動",
         "intro": "冬季限定的自然奇景，由萬年冰川融水雕琢而成，洞穴內部呈現晶瑩剔透、令人屏息的藍寶石色澤。",
         "story": "冰洞的生命週期很短暫，每年夏季會因氣溫升高而坍塌或改變形狀，冬季時再由經驗豐富的專業嚮導尋找新的安全洞穴。因此，每次看到的冰洞都是大自然獨一無二的「季節限定版」。",
-        "navigation": "https://maps.google.com/?q=Crystal%20Ice%20Cave%20%E6%B0%B4%E6%99%B6%E5%86%B0%E6%B4%9E"
+        "navigation": "https://maps.google.com/?q=64.0784,-16.2306"
       },
       {
         "t": "12:30-13:00",
         "tr": "自駕",
         "ti": "返回 Höfn",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E8%BF%94%E5%9B%9E%20H%C3%B6fn"
+        "navigation": "https://maps.google.com/?q=64.2539,-15.2082"
       },
       {
         "t": "13:00-14:00",
@@ -429,7 +429,7 @@
         "n": "",
         "intro": "位於蝙蝠山腳下的維京人傳統聚落佈景，茅草屋頂與木造結構非常有氛圍。",
         "story": "其實這並非真實的歷史遺跡，而是2010年為了一部好萊塢電影(據傳由環球影業策劃)所搭建的大型片場，雖然電影最終並未拍攝完成，但精美的場景保留了下來，成為充滿神秘感的觀光點。",
-        "navigation": "https://maps.google.com/?q=Viking%20Village%20%E7%B6%AD%E4%BA%AC%E8%81%9A%E8%90%BD"
+        "navigation": "https://maps.google.com/?q=64.2494,-14.9961"
       },
       {
         "t": "-",
@@ -440,14 +440,14 @@
         "n": "日落時分最美；導航 Viking Cafe；建議租 4WD SUV",
         "intro": "被攝影師稱為「蝙蝠山」，以其獨特的鋸齒狀連綿山峰與黑沙灘倒影成為享譽全球的攝影聖地。",
         "story": "這座山有著超過數百萬年的歷史，主要是由輝長岩組成。在近代，這裡曾是二戰期間英國軍隊的駐紮地，至今附近還能看到一個廢棄的北約雷達站，默默見證了冷戰時期的歷史。",
-        "navigation": "https://maps.google.com/?q=Viking%20Cafe"
+        "navigation": "https://maps.google.com/?q=64.2446,-14.972"
       },
       {
         "t": "18:00-18:30",
         "tr": "自駕",
         "ti": "前往住宿 - Sauðanes Guesthouse",
         "n": "品嚐龍蝦湯；可考慮晚上到蝙蝠山蹲極光",
-        "navigation": "https://maps.google.com/?q=Sau%C3%B0anes%20Guesthouse"
+        "navigation": "https://maps.google.com/?q=64.2807,-15.1515"
       }
     ]
   },
@@ -463,7 +463,7 @@
         "tr": "-",
         "ti": "退房 - Sauðanes Guesthouse",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Sau%C3%B0anes%20Guesthouse"
+        "navigation": "https://maps.google.com/?q=64.2807,-15.1515"
       },
       {
         "t": "09:30-11:30",
@@ -472,7 +472,7 @@
         "n": "",
         "intro": "歷史悠久的東部峽灣小漁村，生活步調極度緩慢寧靜。",
         "story": "這裡是冰島少數加入「國際慢城」(Cittaslow)組織的城鎮，倡導保護當地文化、歷史建築與環境，對抗全球化帶來的速食文化，強調生活品質與慢節奏。",
-        "navigation": "https://maps.google.com/?q=Dj%C3%BApivogur%20%E9%83%BD%E7%9A%AE%E6%B2%83%E5%8F%A4%E7%88%BE%20%28%E4%B8%AD%E7%B9%BC%E7%AB%99%29"
+        "navigation": "https://maps.google.com/?q=64.6562,-14.2849"
       },
       {
         "t": "11:30-12:30",
@@ -482,7 +482,7 @@
         "n": "進博物館才需購票，咖啡廳旁有廁所",
         "intro": "都皮沃古爾最古老的紅色木造建築，現為博物館兼舒適的咖啡廳。",
         "story": "建於1790年，最初用於商業貿易和倉儲。如今館內展示了冰島著名雕塑家Ríkarður Jónsson的木雕作品，以及當地傳承數百年的航海與漁業歷史。",
-        "navigation": "https://maps.google.com/?q=Langab%C3%BA%C3%B0%20%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%92%96%E5%95%A1%E5%BB%B3"
+        "navigation": "https://maps.google.com/?q=64.6569,-14.2901"
       },
       {
         "t": "12:30-12:45",
@@ -491,7 +491,7 @@
         "n": "選去，裝置藝術",
         "intro": "位於寧靜海岸邊的長排裝置藝術，共有34顆巨大的花崗岩蛋。",
         "story": "由冰島知名藝術家Sigurður Guðmundsson創作，這些精緻的石蛋代表了在該地區築巢的34種不同鳥類。每一顆蛋的大小、形狀與顏色紋理，都與真實鳥蛋的比例完全對應，是融合藝術與生態的巧思。",
-        "navigation": "https://maps.google.com/?q=Eggin%20%C3%AD%20Gle%C3%B0iv%C3%ADk%20%E6%AD%A1%E6%A8%82%E7%81%A3%E7%9A%84%E8%9B%8B"
+        "navigation": "https://maps.google.com/?q=64.6618,-14.2948"
       },
       {
         "t": "12:50-13:10",
@@ -500,7 +500,7 @@
         "n": "前往 Beach in Berufjordur 或 Green Rock 觀景點",
         "intro": "海拔1069公尺的對稱金字塔形玄武岩山峰，常被雲霧繚繞。",
         "story": "冰島傳說中，這是一座有神靈居住的「能量之山」，據說在夏至時分來到山腳下許願便會成真；歷史上也有傳聞指出，在基督教傳入冰島時，當地人為了展現決心，將舊有的北歐神像從山頂丟入了深淵中。",
-        "navigation": "https://maps.google.com/?q=B%C3%BAlandstindur%20%E5%B8%83%E8%98%AD%E6%96%AF%E5%B3%B0%20%28%E9%87%91%E5%AD%97%E5%A1%94%E5%B1%B1%29"
+        "navigation": "https://maps.google.com/?q=64.605,-14.26"
       },
       {
         "t": "13:30-15:30",
@@ -509,7 +509,7 @@
         "n": "進城鎮前會路過",
         "intro": "東部峽灣最大的瀑布之一，因水量大、水氣豐沛如霧而得名「蒸汽瀑布」。",
         "story": "雖然名氣不如南岸的巨型瀑布響亮，但因好萊塢電影《白日夢冒險王》主角溜滑板下山的經典場景就位於這條壯麗的峽灣公路上，使其成為全球影迷的必訪朝聖點。",
-        "navigation": "https://maps.google.com/?q=Gufufoss%20%E8%92%B8%E6%B1%BD%E7%80%91%E5%B8%83"
+        "navigation": "https://maps.google.com/?q=65.2555,-14.0133"
       },
       {
         "t": "15:50-16:00",
@@ -520,7 +520,7 @@
         "n": "白日夢冒險王小鎮；彩虹街道；滑板路段",
         "intro": "群山環繞的美麗峽灣小鎮，鎮中心有一條著名的彩虹步道，一路通往童話般的藍色教堂。",
         "story": "19世紀末，這裡由挪威漁民建立，曾是冰島東部最繁榮的城鎮之一。這裡保留了大量優美的北歐彩色木屋，也是《白日夢冒險王》中主角沃特抵達冰島後，溜著滑板一路滑到的那個寧靜小鎮。",
-        "navigation": "https://maps.google.com/?q=Sey%C3%B0isfj%C3%B6r%C3%B0ur%20%E5%A1%9E%E6%BF%9F%E6%96%AF%E8%8F%B2%E5%8E%84%E6%BE%A4"
+        "navigation": "https://maps.google.com/?q=65.2601,-14.0058"
       },
       {
         "t": "17:00-17:30",
@@ -535,7 +535,7 @@
         "tr": "自駕",
         "ti": "Check in - Hérað - Berjaya Iceland Hotels",
         "n": "",
-        "navigation": "https://maps.google.com/?q=H%C3%A9ra%C3%B0%20-%20Berjaya%20Iceland%20Hotels"
+        "navigation": "https://maps.google.com/?q=65.2669,-14.3948"
       },
       {
         "t": "19:30",
@@ -545,7 +545,7 @@
         "n": "可以喝的溫泉，跳進旁邊湖水就是三溫暖",
         "intro": "冰島東部唯一的漂浮地熱溫泉，以無邊際池設計建於Urriðavatn湖面上。",
         "story": "幾個世紀以來，當地人發現在這座嚴冬結冰的湖面上，總有幾個特定區域永遠不會結冰。後來經證實，這些無冰區是湖底湧出的純淨溫泉水，它也是冰島唯一經過認證、水質純淨到可以直接飲用的地熱溫泉！",
-        "navigation": "https://maps.google.com/?q=V%C3%B6k%20Baths%20%E6%B2%83%E5%85%8B%E6%BA%AB%E6%B3%89"
+        "navigation": "https://maps.google.com/?q=65.3039,-14.4493"
       }
     ]
   },
@@ -561,7 +561,7 @@
         "tr": "-",
         "ti": "退房 - Hérað - Berjaya Iceland Hotels",
         "n": "",
-        "navigation": "https://maps.google.com/?q=H%C3%A9ra%C3%B0%20-%20Berjaya%20Iceland%20Hotels"
+        "navigation": "https://maps.google.com/?q=65.2669,-14.3948"
       },
       {
         "t": "09:00-11:00",
@@ -572,7 +572,7 @@
         "n": "火山地形與溫泉區",
         "intro": "被譽為「最像火星」的地方，布滿了沸騰的灰色泥漿池和不斷噴氣的氣孔，空氣中散發濃烈的硫磺味。",
         "story": "這裡地底的岩漿庫距離地表極近，高溫使土地寸草不生。在中世紀時期，冰島人曾利用這裡豐富的資源，開採硫磺並大量出口到歐洲各國，用於製造火藥以供應戰爭需求。",
-        "navigation": "https://maps.google.com/?q=N%C3%A1mafjall%20Hverir%20%E7%81%AB%E5%B1%B1%E5%9C%B0%E7%86%B1%E8%B0%B7"
+        "navigation": "https://maps.google.com/?q=65.6381,-16.8173"
       },
       {
         "t": "11:40-11:55",
@@ -581,7 +581,7 @@
         "n": "選去；至少需預留 1.5 小時",
         "intro": "廣大的克拉布拉火山系統及其著名的火山口湖(Víti，意為「地獄」)，湖水呈現美麗的不透明藍綠色。",
         "story": "Víti火山口形成於1724年一場極度猛烈、持續了長達5年的大規模火山爆發事件(史稱「米湖之火」Mývatnseldar)。如今，人類已經將這種恐怖的能量轉化為資源，附近建有地熱發電廠，利用火山能量為冰島發電。",
-        "navigation": "https://maps.google.com/?q=Krafla%20%E5%85%8B%E6%8B%89%E5%B8%83%E6%8B%89%E7%81%AB%E5%B1%B1%20%26%20Viti%20%E7%81%AB%E5%8F%A3%E6%B9%96"
+        "navigation": "https://maps.google.com/?q=65.7153,-16.765"
       },
       {
         "t": "-",
@@ -592,7 +592,7 @@
         "n": "關閉施工中，高機率沒開",
         "intro": "常被稱為「北部的藍湖」，水質富含硫磺等礦物質，呈現柔和的淡藍色。",
         "story": "當地自古就有利用地熱洗浴的傳統，這座現代化的溫泉設施於2004年開幕，是冰島北部最受歡迎的溫泉療養地，水中的鹼性礦物質對皮膚修復有極佳的幫助。",
-        "navigation": "https://maps.google.com/?q=M%C3%BDvatn%20Nature%20Baths%20%E7%B1%B3%E6%B9%96%E6%BA%AB%E6%B3%89"
+        "navigation": "https://maps.google.com/?q=65.6317,-16.8497"
       },
       {
         "t": "12:15-12:45",
@@ -601,7 +601,7 @@
         "n": "現已無法泡湯；導航 Parking for Grojotagja cave",
         "intro": "一個隱蔽在地底裂縫中的火山熔岩洞穴，裡面有一池湛藍透亮的溫泉水。",
         "story": "這裡曾是當地人喜愛的野外秘境溫泉，但在1970年代克拉布拉火山爆發後，地底岩漿活動導致水溫一度飆升至無法沐浴的沸點。這裡也是熱門美劇《權力遊戲》中，瓊恩·雪諾與耶哥蕊特共浴的重要浪漫場景拍攝地。",
-        "navigation": "https://maps.google.com/?q=Parking%20for%20Grojotagja%20cave"
+        "navigation": "https://maps.google.com/?q=65.6261,-16.8823"
       },
       {
         "t": "13:10-13:25",
@@ -610,7 +610,7 @@
         "n": "導航 Parking Hverfell",
         "intro": "直徑約1公里的巨大黑色火山口，外觀猶如一座落在荒原上的巨型隕石坑。",
         "story": "大約在2500年前的一次毀滅性水蒸汽爆發(tephra explosion)中形成。遊客可以沿著陡峭的碎石步道爬上火山口邊緣，繞行一圈，並俯瞰整個米湖區域的壯麗與荒涼。",
-        "navigation": "https://maps.google.com/?q=Parking%20Hverfell"
+        "navigation": "https://maps.google.com/?q=65.609,-16.8776"
       },
       {
         "t": "14:30-14:45",
@@ -621,7 +621,7 @@
         "n": "奇特熔岩地形",
         "intro": "被稱為「黑色城堡」的奇特熔岩柱群，走在其中彷彿進入了奇幻的魔戒世界。",
         "story": "大約2000年前，滾燙的熔岩流過這裡的濕地與沼澤時，底部的湖水瞬間沸騰變成蒸汽往上噴發，形成了這些奇形怪狀的中空熔岩柱。冰島民間傳說深信這裡連接了地獄，是凶惡巨魔和冰島「十三個聖誕老人」(Yule Lads)的棲息地。",
-        "navigation": "https://maps.google.com/?q=Dimmuborgir%20%E9%BB%91%E8%89%B2%E5%9F%8E%E5%A0%A1"
+        "navigation": "https://maps.google.com/?q=65.5916,-16.9129"
       },
       {
         "t": "15:30-15:45",
@@ -630,7 +630,7 @@
         "n": "",
         "intro": "米湖畔的一群小山丘，覆蓋著綠草，形狀像一個個碗狀的火山口。",
         "story": "它們在地理學上被稱為「偽火山口」。因為它們並非真正噴發岩漿的火山口，而是遠古時期滾燙的熔岩流過富含水分的濕地時，水瞬間氣化產生連續蒸汽爆炸，將地表炸出的一個個大坑洞。",
-        "navigation": "https://maps.google.com/?q=Sk%C3%BAtusta%C3%B0ag%C3%ADgar%20%E5%81%BD%E7%81%AB%E5%B1%B1%E7%BE%A4"
+        "navigation": "https://maps.google.com/?q=65.5709,-17.0347"
       },
       {
         "t": "16:30-17:10",
@@ -641,14 +641,14 @@
         "n": "環形瀑布；冰島歷史名勝",
         "intro": "呈半圓弧形的優雅瀑布，水流清澈，被譽為「眾神瀑布」或「神之瀑布」。",
         "story": "西元1000年左右，冰島面臨宗教信仰的抉擇。當時的法律演講人Þorgeir Ljósvetningagoði在議會中決定冰島將和平皈依基督教後，他回到家鄉，象徵性地將舊有的北歐神像(如索爾、奧丁等)全數投入這座瀑布的深淵中，瀑布因此得名，標誌著冰島歷史上的重大轉折。",
-        "navigation": "https://maps.google.com/?q=Go%C3%B0afoss%20%E7%9C%BE%E7%A5%9E%E7%80%91%E5%B8%83"
+        "navigation": "https://maps.google.com/?q=65.6828,-17.5502"
       },
       {
         "t": "18:00-18:40",
         "tr": "自駕",
         "ti": "Check in - Hotel North",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Hotel%20North"
+        "navigation": "https://maps.google.com/?q=65.7003,-18.0834"
       }
     ]
   },
@@ -664,7 +664,7 @@
         "tr": "-",
         "ti": "退房 - Hotel North",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Hotel%20North"
+        "navigation": "https://maps.google.com/?q=65.7003,-18.0834"
       },
       {
         "t": "09:00-09:20",
@@ -674,7 +674,7 @@
         "n": "北部首都、冰島第二大城",
         "intro": "坐落於冰島最長峽灣的盡頭，被稱為「冰島北部首都」。",
         "story": "這裡擁有獨特的微氣候，甚至可以種植樹木。有趣的是，當年為了在2008年金融海嘯期間提振市民的低落心情，當局將市區所有的紅綠燈全改成了可愛的「心型」，這份浪漫與溫暖的設計保留至今，成為小鎮特色。",
-        "navigation": "https://maps.google.com/?q=Akureyri%20%E9%98%BF%E5%85%8B%E9%9B%B7%E9%87%8C%E5%B8%82%E5%8D%80%E6%8E%A2%E7%B4%A2%20%2B%20%E6%97%A9%E9%A4%90"
+        "navigation": "https://maps.google.com/?q=65.6835,-18.0878"
       },
       {
         "t": "~10:00",
@@ -683,7 +683,7 @@
         "n": "",
         "intro": "阿克雷里的地標性建築，是一座建於山丘上的玄武岩風格教堂。",
         "story": "它與雷克雅維克的哈爾格林姆教堂出自同一位傳奇建築師Guðjón Samúelsson之手。教堂內部的彩繪玻璃窗十分珍貴，其中央的花窗，據說曾在二戰期間為了躲避戰火，秘密從英國的考文垂大教堂運來此處保存。",
-        "navigation": "https://maps.google.com/?q=Akureyrarkirkja%20%E9%98%BF%E5%85%8B%E9%9B%B7%E9%87%8C%E5%A4%A7%E6%95%99%E5%A0%82"
+        "navigation": "https://maps.google.com/?q=64.1417,-21.9266"
       },
       {
         "t": "10:40-12:40",
@@ -692,7 +692,7 @@
         "n": "車程 2 小時；中繼站",
         "intro": "位於冰島北部的寧靜中繼小鎮，其現代主義風格的教堂外觀酷似一隻巨大的鯨魚。",
         "story": "這座「鯨魚教堂」(Blönduóskirkja)建於1993年，其前衛的建築靈感來自周圍的群山地貌和冰島的自然環境，獨特的造型打破了傳統教堂的框架，使其成為環島1號公路上引人注目的焦點。",
-        "navigation": "https://maps.google.com/?q=Bl%C3%B6ndu%C3%B3s%20%E5%B8%83%E5%80%AB%E8%BF%AA%E6%AD%90%E6%96%AF%20%26%20%E9%AF%A8%E9%AD%9A%E6%95%99%E5%A0%82"
+        "navigation": "https://maps.google.com/?q=65.6597,-20.2805"
       },
       {
         "t": "13:30-14:00",
@@ -701,14 +701,14 @@
         "n": "巨型山崩遺留的丘陵地帶",
         "intro": "散布在廣闊平原上的無數個大小不一的小山丘，被稱為「蟻丘」。",
         "story": "這些看似火山口的小山丘其實並非火山，而是冰河時期末期，附近山脈發生了一次災難性的巨大山崩所遺留下來的殘骸。冰島有一句古諺說，冰島有三多：「數不清的湖泊、數不清的島嶼，以及這裡數不清的山丘」。",
-        "navigation": "https://maps.google.com/?q=Vatnsdalsh%C3%B3lar%20%E8%9F%BB%E4%B8%98%E7%81%AB%E5%B1%B1%E8%A7%80%E6%99%AF%E5%8F%B0"
+        "navigation": "https://maps.google.com/?q=65.5018,-20.3788"
       },
       {
         "t": "14:30-17:00",
         "tr": "自駕",
         "ti": "Búðardalur 布扎達呂爾",
         "n": "前往教堂山的中繼站",
-        "navigation": "https://maps.google.com/?q=B%C3%BA%C3%B0ardalur%20%E5%B8%83%E6%89%8E%E9%81%94%E5%91%82%E7%88%BE"
+        "navigation": "https://maps.google.com/?q=65.1049,-21.7651"
       },
       {
         "t": "17:10-19:00",
@@ -717,14 +717,14 @@
         "n": "",
         "intro": "冰島最具國際代表性的山峰「教會山」(常被華人稱為草帽山)，因形似一頂巨大的草帽而聞名。",
         "story": "這座獨立山峰是冰島被攝影師拍攝次數最多的地標，它是由冰川長年雕刻而成的地質奇蹟。它也是知名美劇《權力遊戲》(Game of Thrones)中，獵犬所看見的那座「如箭頭般的山」(Arrowhead Mountain)的實際取景地。",
-        "navigation": "https://maps.google.com/?q=Kirkjufell%20%E6%95%99%E6%9C%83%E5%B1%B1"
+        "navigation": "https://maps.google.com/?q=64.9274,-23.3052"
       },
       {
         "t": "~20:00",
         "tr": "自駕",
         "ti": "Check in - Kirkjufell Guesthouse",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Kirkjufell%20Guesthouse"
+        "navigation": "https://maps.google.com/?q=64.9215,-23.2589"
       }
     ]
   },
@@ -740,7 +740,7 @@
         "tr": "-",
         "ti": "退房 - Kirkjufell Guesthouse",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Kirkjufell%20Guesthouse"
+        "navigation": "https://maps.google.com/?q=64.9215,-23.2589"
       },
       {
         "t": "08:00-08:30",
@@ -749,14 +749,14 @@
         "n": "視力檢查標準圖像",
         "intro": "位於斯奈山半島，擁有鮮豔紅色屋頂、孤獨佇立在廣闊原野中的教堂。",
         "story": "建於1903年，是世界上最古老的混凝土教堂之一。歷史上有一段著名的傳說：據說探險家哥倫布在1477年(發現新大陸前)曾航行至此地停留過冬，並向當地的冰島漁民打聽西方的未知海域與季風情況。",
-        "navigation": "https://maps.google.com/?q=Ingjaldsh%C3%B3ll%20Church"
+        "navigation": "https://maps.google.com/?q=64.9228,-23.9128"
       },
       {
         "t": "08:40-10:20",
         "tr": "自駕",
         "ti": "Geirabakari 早午餐",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Geirabakari%20%E6%97%A9%E5%8D%88%E9%A4%90"
+        "navigation": "https://maps.google.com/?q=64.5409,-21.909"
       },
       {
         "t": "11:50-13:30",
@@ -765,7 +765,7 @@
         "n": "跨越歐亞與北美板塊裂縫的小橋",
         "intro": "橫跨在北美和歐亞板塊巨大地質裂縫上的一座小步行橋。",
         "story": "這座橋象徵性地連接了兩個正在以每年約2公分速度不斷分離的大陸板塊。橋中央明確標示著板塊分界線，讓遊客可以體驗「一秒跨越兩大洲」的奇妙感受，並見證地球持續變動的力量。",
-        "navigation": "https://maps.google.com/?q=Bridge%20Between%20Continents"
+        "navigation": "https://maps.google.com/?q=63.8114,-22.668"
       },
       {
         "t": "14:00-14:30",
@@ -776,21 +776,21 @@
         "n": "世界著名地熱溫泉",
         "intro": "冰島最著名的地熱溫泉，湖水呈現夢幻的乳藍色，富含矽酸鹽礦物質。",
         "story": "令人意外的是，藍湖其實是一座「人造」溫泉。最初它是附近Svartsengi地熱發電廠排放的潔淨溫泉廢水積聚而成，當地人無意間發現這種水質對皮膚病有極佳的療癒效果，後來才逐漸發展成今日聞名全球的世界級頂級水療中心。",
-        "navigation": "https://maps.google.com/?q=Blue%20Lagoon%20%E8%97%8D%E6%B9%96%E6%BA%AB%E6%B3%89"
+        "navigation": "https://maps.google.com/?q=63.8814,-22.4531"
       },
       {
         "t": "19:00-19:30",
         "tr": "自駕",
         "ti": "還車 - Blue Car Rental Iceland",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Blue%20Car%20Rental%20Iceland"
+        "navigation": "https://maps.google.com/?q=63.9932,-22.6056"
       },
       {
         "t": "~20:00",
         "tr": "步行",
         "ti": "Check in - Aurora Hotel",
         "n": "位於 Keflavík Airport 機場旁",
-        "navigation": "https://maps.google.com/?q=Aurora%20Hotel"
+        "navigation": "https://maps.google.com/?q=63.9983,-22.6298"
       }
     ]
   },
@@ -806,7 +806,7 @@
         "tr": "步行",
         "ti": "退房 - Aurora Hotel & 前往機場",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Aurora%20Hotel%20%26%20%E5%89%8D%E5%BE%80%E6%A9%9F%E5%A0%B4"
+        "navigation": "https://maps.google.com/?q=63.9983,-22.6298"
       },
       {
         "t": "07:50 出發",
@@ -835,7 +835,7 @@
         "tr": "步行",
         "ti": "寄放行李 - Citybox Oslo",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Citybox%20Oslo"
+        "navigation": "https://maps.google.com/?q=59.9121,10.7478"
       },
       {
         "t": "13:30-13:45",
@@ -843,7 +843,7 @@
         "ti": "午餐 - Fiskeriet Youngstorget",
         "o": "11:00–22:30",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Fiskeriet%20Youngstorget"
+        "navigation": "https://maps.google.com/?q=59.9149,10.7488"
       },
       {
         "t": "15:00 起",
@@ -865,7 +865,7 @@
         "n": "可爬上屋頂欣賞風景，夕陽必看",
         "intro": "如同浮在峽灣上的一塊巨大白色冰川建築，最大的特色是遊客可以直接走上傾斜的屋頂。",
         "story": "完工於2008年。建築設計團隊Snøhetta的核心理念是「開放與民主」，旨在讓這座原本象徵高雅藝術的殿堂成為公眾可以自由使用的休閒空間，徹底打破了藝術與大眾的界線，是當代斯堪地那維亞建築的最高典範。",
-        "navigation": "https://maps.google.com/?q=Oslo%20Opera%20House%20%E5%A5%A7%E6%96%AF%E9%99%B8%E6%AD%8C%E5%8A%87%E9%99%A2"
+        "navigation": "https://maps.google.com/?q=59.9074,10.7531"
       },
       {
         "t": "-",
@@ -888,7 +888,7 @@
         "tr": "步行",
         "ti": "退房並前往 Oslo S 奧斯陸中央車站",
         "n": "早餐與中午要提前處理，Flam 沒得購買。考慮寄送行李服務",
-        "navigation": "https://maps.google.com/?q=%E9%80%80%E6%88%BF%E4%B8%A6%E5%89%8D%E5%BE%80%20Oslo%20S%20%E5%A5%A7%E6%96%AF%E9%99%B8%E4%B8%AD%E5%A4%AE%E8%BB%8A%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=59.9116,10.7501"
       },
       {
         "t": "08:25 出發",
@@ -897,14 +897,14 @@
         "n": "車程 5 小時；歐洲最高山地鐵路，前往 Myrdal 米達爾",
         "intro": "連接奧斯陸與卑爾根的幹線鐵路，橫跨歐洲最大的高山高原(Hardangervidda)。",
         "story": "由於必須穿越氣候惡劣的嚴寒高原，這條鐵路的修建工程在19世紀末被視為「不可能的任務」。工人們在酷寒與暴風雪中開鑿了上百個隧道，被公認為世界工程史上的奇蹟之一。",
-        "navigation": "https://maps.google.com/?q=Bergen%20Railway%20%E5%8D%91%E7%88%BE%E6%A0%B9%E9%90%B5%E8%B7%AF"
+        "navigation": "https://maps.google.com/?q=59.9116,10.7501"
       },
       {
         "t": "13:04 抵達",
         "tr": "火車",
         "ti": "抵達 Myrdal stasjon 米達爾車站",
         "n": "隔壁月台換乘 Flåmsbana 景觀火車",
-        "navigation": "https://maps.google.com/?q=%E6%8A%B5%E9%81%94%20Myrdal%20stasjon%20%E7%B1%B3%E9%81%94%E7%88%BE%E8%BB%8A%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=60.7268,7.1308"
       },
       {
         "t": "13:15 出發",
@@ -913,14 +913,14 @@
         "n": "車程 1 小時；世界最美火車路線之一\n自由座，想坐窗邊記得早上車",
         "intro": "被譽為世界上最美的鐵路之旅之一，短短一小時內從海拔866公尺的高山米達爾驟降至海平面的弗洛姆峽灣。",
         "story": "全長僅20公里，卻是世界上標準軌距中最陡峭的粘著式鐵路之一。這項艱鉅的建設沒有使用任何重型機械，全靠人工開鑿隧道，耗時20年才於1940年完工。",
-        "navigation": "https://maps.google.com/?q=%E6%99%AF%E8%A7%80%E7%81%AB%E8%BB%8A%20Fl%C3%A5msbana%20%E5%89%8D%E5%BE%80%20Fl%C3%A5m"
+        "navigation": "https://maps.google.com/?q=60.8634,7.1168"
       },
       {
         "t": "14:05 抵達",
         "tr": "火車",
         "ti": "抵達 Flåm stasjon 弗洛姆車站",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E6%8A%B5%E9%81%94%20Fl%C3%A5m%20stasjon%20%E5%BC%97%E6%B4%9B%E5%A7%86%E8%BB%8A%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=60.8634,7.1168"
       },
       {
         "t": "14:45 出發",
@@ -929,14 +929,14 @@
         "n": "航程 2 小時；經過 Aurlandsfjord 與 Nærøyfjord 納柔依峽灣(UNESCO 世界遺產)",
         "intro": "納柔依峽灣是松恩峽灣最狹窄、最壯麗的分支。",
         "story": "因其未受現代開發破壞的極致自然美景與兩側陡峭的懸崖，於2005年被聯合國教科文組織列為世界自然遺產。峽灣最窄處僅有250公尺寬，航行其中彷彿被高達千公尺的群山緊緊包圍，令人對大自然心生敬畏。",
-        "navigation": "https://maps.google.com/?q=%E6%90%AD%E9%81%8A%E8%88%B9%E5%89%8D%E5%BE%80%20Gudvangen%20%E5%8F%A4%E5%BE%B7%E5%87%A1%E6%A0%B9"
+        "navigation": "https://maps.google.com/?q=60.8765,6.8335"
       },
       {
         "t": "16:45 抵達",
         "tr": "渡輪",
         "ti": "抵達 Gudvangen 古德凡根",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E6%8A%B5%E9%81%94%20Gudvangen%20%E5%8F%A4%E5%BE%B7%E5%87%A1%E6%A0%B9"
+        "navigation": "https://maps.google.com/?q=60.8765,6.8335"
       },
       {
         "t": "-",
@@ -944,7 +944,7 @@
         "ti": "Check in - Gudvangen Fjordtell + 晚餐",
         "c": "NT$ 5,320/晚",
         "n": "離海灣最近，含早餐",
-        "navigation": "https://maps.google.com/?q=Gudvangen%20Fjordtell%20%2B%20%E6%99%9A%E9%A4%90"
+        "navigation": "https://maps.google.com/?q=60.8806,6.8415"
       }
     ]
   },
@@ -967,7 +967,7 @@
         "tr": "步行",
         "ti": "走到高速公路旁搭乘點",
         "n": "約 500 公尺，走路 10 分鐘，Gudvangen E16 搭乘點",
-        "navigation": "https://maps.google.com/?q=%E8%B5%B0%E5%88%B0%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF%E6%97%81%E6%90%AD%E4%B9%98%E9%BB%9E"
+        "navigation": "https://maps.google.com/?q=60.8765,6.8335"
       },
       {
         "t": "09:45 出發",
@@ -981,35 +981,35 @@
         "tr": "巴士",
         "ti": "抵達 Voss stasjon 沃斯車站",
         "n": "車程 50 分鐘(蜿蜒山路)，座位 1C & 1D",
-        "navigation": "https://maps.google.com/?q=%E6%8A%B5%E9%81%94%20Voss%20stasjon%20%E6%B2%83%E6%96%AF%E8%BB%8A%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=60.6288,6.4161"
       },
       {
         "t": "-",
         "tr": "步行",
         "ti": "小遊 Voss 沃斯 & 午餐 Vangen Café",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%B0%8F%E9%81%8A%20Voss%20%E6%B2%83%E6%96%AF%20%26%20%E5%8D%88%E9%A4%90%20Vangen%20Caf%C3%A9"
+        "navigation": "https://maps.google.com/?q=60.627,6.419"
       },
       {
         "t": "14:07 出發",
         "tr": "火車",
         "ti": "前往 Bergen stasjon 卑爾根車站",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%20Bergen%20stasjon%20%E5%8D%91%E7%88%BE%E6%A0%B9%E8%BB%8A%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=60.3913,5.3325"
       },
       {
         "t": "15:24 抵達",
         "tr": "火車",
         "ti": "抵達卑爾根車站",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E6%8A%B5%E9%81%94%E5%8D%91%E7%88%BE%E6%A0%B9%E8%BB%8A%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=60.3913,5.3325"
       },
       {
         "t": "~15:40",
         "tr": "步行",
         "ti": "Check in - Zander K Hotel",
         "n": "可寄放行李",
-        "navigation": "https://maps.google.com/?q=Zander%20K%20Hotel"
+        "navigation": "https://maps.google.com/?q=60.391,5.3275"
       },
       {
         "t": "16:10-16:25",
@@ -1027,7 +1027,7 @@
         "n": "俯瞰卑爾根市區與峽灣",
         "intro": "卑爾根最著名的弗洛伊恩山纜車，幾分鐘內即可將旅客送達海拔320公尺的山頂。",
         "story": "這條索道自1918年開始營運，一百多年來一直是卑爾根最具標誌性的交通工具與景點。山頂觀景台是俯瞰這座被稱為「七山之城」的絕佳地點，可以將古老港口與壯麗峽灣盡收眼底。",
-        "navigation": "https://maps.google.com/?q=Fl%C3%B8ibanen%20%E5%BC%97%E6%B4%9B%E4%BC%8A%E6%81%A9%E5%B1%B1%E7%BA%9C%E8%BB%8A"
+        "navigation": "https://maps.google.com/?q=60.3929,5.3268"
       },
       {
         "t": "-",
@@ -1060,7 +1060,7 @@
         "n": "行程 4 小時",
         "intro": "從卑爾根出發，穿越狹窄Osterfjord峽灣的經典水上行程。",
         "story": "航程中船隻會駛入非常狹窄的水道(Mostraumen)，並極度靠近陡峭的山崖與瀑布。船長有時甚至會用水桶直接接下瀑布的冰涼雪水讓乘客品嚐，是體驗挪威峽灣險峻地形最經典且親民路線。",
-        "navigation": "https://maps.google.com/?q=Mostraumen%20%E5%B3%BD%E7%81%A3%E5%B7%A1%E8%88%AA"
+        "navigation": "https://maps.google.com/?q=60.3948,5.3195"
       },
       {
         "t": "14:30-14:50",
@@ -1071,7 +1071,7 @@
         "n": "UNESCO 世界遺產；彩色木屋",
         "intro": "卑爾根舊城區港口邊一排色彩繽紛、極具童話感的傳統尖頂木造建築。",
         "story": "中世紀時，這裡是歐洲強大商業聯盟「漢薩同盟」(Hanseatic League)的貿易重鎮，主導了整個北歐的乾鱈魚貿易長達數百年。雖然木屋群在歷史上歷經多次毀滅性大火，但市民仍堅持按中世紀的建築風格將其原樣重建，現已列為世界文化遺產。",
-        "navigation": "https://maps.google.com/?q=Bryggen%20%E5%B8%83%E5%91%82%E6%A0%B9%E6%9C%A8%E5%B1%8B%E7%BE%A4"
+        "navigation": "https://maps.google.com/?q=60.3975,5.3219"
       },
       {
         "t": "15:10-15:30",
@@ -1081,14 +1081,14 @@
         "n": "自由消費；品嚐新鮮海鮮，旁邊有馴鹿肉熱狗",
         "intro": "位於港口旁、歷史悠久的露天魚市場，是這座海港城市活力的泉源。",
         "story": "自13世紀以來，這裡就是卑爾根居民購買新鮮漁獲、社交與交易的中心。如今雖然觀光化程度高，但仍是品嚐挪威頂級鮭魚、帝王蟹，甚至挑戰北歐特色「馴鹿肉熱狗」的必訪地點。",
-        "navigation": "https://maps.google.com/?q=Fisketorget%20%E5%8D%91%E7%88%BE%E6%A0%B9%E9%AD%9A%E5%B8%82%E5%A0%B4"
+        "navigation": "https://maps.google.com/?q=60.3946,5.3252"
       },
       {
         "t": "16:30-16:50",
         "tr": "步行",
         "ti": "Bryggen Harbour view 景觀拍攝",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Bryggen%20Harbour%20view%20%E6%99%AF%E8%A7%80%E6%8B%8D%E6%94%9D"
+        "navigation": "https://maps.google.com/?q=60.3975,5.3219"
       },
       {
         "t": "-",
@@ -1118,7 +1118,7 @@
         "tr": "巴士",
         "ti": "Tollbodallmenningen → Stadsporten",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Tollbodallmenningen%20%E2%86%92%20Stadsporten"
+        "navigation": "https://maps.google.com/?q=60.396,5.3243"
       },
       {
         "t": "~13:00",
@@ -1128,7 +1128,7 @@
         "n": "",
         "intro": "卑爾根水族館(Akvariet i Bergen)是挪威最大、最古老的水族館。",
         "story": "成立於1960年，最初是為了展示挪威西海岸豐富的海洋生物而建。除了展示當地的北海鱈魚和峽灣魚類，最受歡迎的還有其企鵝與海豹的保育計畫，並長期致力於海洋生態的推廣教育。",
-        "navigation": "https://maps.google.com/?q=%E6%B0%B4%E6%97%8F%E9%A4%A8"
+        "navigation": "https://maps.google.com/?q=60.3978,5.2987"
       },
       {
         "t": "~13:10",
@@ -1142,7 +1142,7 @@
         "tr": "-",
         "ti": "公園散步 Lille Lundgegardsvannet",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%85%AC%E5%9C%92%E6%95%A3%E6%AD%A5%20Lille%20Lundgegardsvannet"
+        "navigation": "https://maps.google.com/?q=60.3873,5.3367"
       },
       {
         "t": "~15:00",
@@ -1156,7 +1156,7 @@
         "tr": "巴士",
         "ti": "前往卑爾根弗萊斯蘭機場 (BGO)",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%E5%8D%91%E7%88%BE%E6%A0%B9%E5%BC%97%E8%90%8A%E6%96%AF%E8%98%AD%E6%A9%9F%E5%A0%B4%20%28BGO%29"
+        "navigation": "https://maps.google.com/?q=60.2934,5.2185"
       },
       {
         "t": "19:35 出發",
@@ -1178,7 +1178,7 @@
         "tr": "步行",
         "ti": "Check in - Scandic Falkoner",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Scandic%20Falkoner"
+        "navigation": "https://maps.google.com/?q=55.6808,12.5262"
       }
     ]
   },
@@ -1198,7 +1198,7 @@
         "n": "丹麥著名地標",
         "intro": "位於哥本哈根長堤公園的青銅雕像，體型嬌小，是丹麥最享譽國際的標誌。",
         "story": "雕像由嘉士伯啤酒創始人的兒子委託製作，靈感來自丹麥國寶作家安徒生的同名悲美童話。自1913年落成以來，她命運多舛，曾多次遭遇被「斬首」、斷臂或被潑漆等嚴重破壞，但每次都被丹麥人精心修復，靜靜守護著海港。",
-        "navigation": "https://maps.google.com/?q=The%20Little%20Mermaid%20%E5%B0%8F%E7%BE%8E%E4%BA%BA%E9%AD%9A%E9%9B%95%E5%83%8F"
+        "navigation": "https://maps.google.com/?q=55.6929,12.5994"
       },
       {
         "t": "10:15-10:45",
@@ -1209,7 +1209,7 @@
         "n": "每日中午衛兵交接儀式",
         "intro": "丹麥王室的冬季居所，由四座外觀幾乎相同的洛可可式宮殿組成一個八角形廣場。",
         "story": "這裡原本是為四個貴族家庭建造的豪宅。1794年，原本的王宮克里斯蒂安堡宮被大火燒毀後，王室買下這裡並遷入至今。每天中午，廣場上會有皇家衛兵戴著高聳熊皮帽的交接儀式，吸引大量遊客駐足。",
-        "navigation": "https://maps.google.com/?q=Amalienborg%20%E9%98%BF%E9%A6%AC%E6%9E%97%E5%A0%A1%E5%AE%AE"
+        "navigation": "https://maps.google.com/?q=55.684,12.5934"
       },
       {
         "t": "12:30-12:45",
@@ -1220,7 +1220,7 @@
         "n": "哥本哈根最具代表性景點",
         "intro": "「新港」其實是一條開鑿於17世紀的人工運河，兩岸排列著色彩鮮豔的古老磚造房屋及歷史悠久的木帆船。",
         "story": "過去這裡曾是來自世界各地水手尋歡作樂、酒吧林立的紅燈區。著名童話大師安徒生曾在這裡的三棟不同房屋內居住過多年，並在這裡寫下了許多經典童話故事。如今它已轉變為哥本哈根最浪漫的休閒餐飲區。",
-        "navigation": "https://maps.google.com/?q=Nyhavn%20%E6%96%B0%E6%B8%AF%E5%BD%A9%E8%89%B2%E5%B1%8B%20%2B%20%E5%8D%88%E9%A4%90"
+        "navigation": "https://maps.google.com/?q=55.6798,12.5908"
       },
       {
         "t": "14:15-14:30",
@@ -1230,7 +1230,7 @@
         "n": "歐洲最長步行購物街之一，商店時間不一",
         "intro": "貫穿哥本哈根市中心，是歐洲最長的無車步行購物街之一。",
         "story": "在1960年代初，為了解決市中心日益嚴重的汽車壅塞問題，哥本哈根政府大膽決定將其改為行人專用徒步區。這項決策起初遭到當地商家強烈的抗議，但實施後不僅大獲成功，更引領了全球城市規劃的「步行化」綠色風潮。",
-        "navigation": "https://maps.google.com/?q=Str%C3%B8get%20%E6%96%AF%E7%89%B9%E7%BE%85%E9%87%8C%E8%80%B6%E6%AD%A5%E8%A1%8C%E8%A1%97%20%2B%20%E9%80%9B%E8%A1%97"
+        "navigation": "https://maps.google.com/?q=55.6779,12.58"
       },
       {
         "t": "16:00-16:10",
@@ -1241,7 +1241,7 @@
         "n": "17 世紀塔樓；螺旋坡道登頂",
         "intro": "建於17世紀的獨特圓塔，內部沒有任何階梯，而是由一條長達200多公尺的平緩螺旋坡道直通塔頂。",
         "story": "由國王克里斯蒂安四世下令建造，最初作為大學的天文台使用。據說俄國沙皇彼得大帝在1716年訪問丹麥時，曾親自騎馬沿著坡道直達塔頂，而他的皇后則乘坐馬車跟在後面，坡道設計正是為了方便馬匹與運送沉重儀器。",
-        "navigation": "https://maps.google.com/?q=Rundet%C3%A5rn%20%E5%9C%93%E5%A1%94"
+        "navigation": "https://maps.google.com/?q=55.6813,12.5748"
       },
       {
         "t": "17:00-17:15",
@@ -1249,7 +1249,7 @@
         "ti": "Canal Tours 運河遊船",
         "c": "DKK 99-149",
         "n": "從水上欣賞城市風景 (約 1 小時)",
-        "navigation": "https://maps.google.com/?q=Canal%20Tours%20%E9%81%8B%E6%B2%B3%E9%81%8A%E8%88%B9"
+        "navigation": "https://maps.google.com/?q=55.677,12.5762"
       },
       {
         "t": "18:15",
@@ -1272,14 +1272,14 @@
         "tr": "-",
         "ti": "退房 - Scandic Falkoner",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Scandic%20Falkoner"
+        "navigation": "https://maps.google.com/?q=55.6808,12.5262"
       },
       {
         "t": "05:30-06:00",
         "tr": "-",
         "ti": "抵達哥本哈根凱斯楚普機場 (CPH)",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E6%8A%B5%E9%81%94%E5%93%A5%E6%9C%AC%E5%93%88%E6%A0%B9%E5%87%B1%E6%96%AF%E6%A5%9A%E6%99%AE%E6%A9%9F%E5%A0%B4%20%28CPH%29"
+        "navigation": "https://maps.google.com/?q=55.618,12.6561"
       },
       {
         "t": "08:00 出發",
@@ -1301,14 +1301,14 @@
         "tr": "火車",
         "ti": "搭乘比利時國鐵至布魯塞爾南站",
         "n": "車程 23 分鐘",
-        "navigation": "https://maps.google.com/?q=%E6%90%AD%E4%B9%98%E6%AF%94%E5%88%A9%E6%99%82%E5%9C%8B%E9%90%B5%E8%87%B3%E5%B8%83%E9%AD%AF%E5%A1%9E%E7%88%BE%E5%8D%97%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=50.8358,4.3358"
       },
       {
         "t": "~11:00",
         "tr": "-",
         "ti": "Check in - Appart'City Confort",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Appart%27City%20Confort"
+        "navigation": "https://maps.google.com/?q=50.8388,4.336"
       },
       {
         "t": "11:30",
@@ -1322,7 +1322,7 @@
         "tr": "步行",
         "ti": "午餐 - Chez Léon",
         "n": "奶油淡菜 + 法蘭德斯啤酒燉牛肉",
-        "navigation": "https://maps.google.com/?q=Chez%20L%C3%A9on"
+        "navigation": "https://maps.google.com/?q=50.848,4.353"
       },
       {
         "t": "14:00-14:10",
@@ -1331,7 +1331,7 @@
         "n": "頂級巧克力品牌聚集地",
         "intro": "歐洲最古老、最華麗的室內購物拱廊之一，充滿文藝復興風格的精緻玻璃穹頂建築。",
         "story": "1847年落成，旨在為布魯塞爾的新興資產階級提供一個免受風雨侵擾的高端社交與購物場所。如今，這裡是Neuhaus、Pierre Marcolini等世界頂級比利時巧克力品牌的兵家必爭之地。",
-        "navigation": "https://maps.google.com/?q=%E8%81%96%E4%BC%91%E4%BC%AF%E7%89%B9%E6%8B%B1%E5%BB%8A%E8%A1%97"
+        "navigation": "https://maps.google.com/?q=50.8472,4.3551"
       },
       {
         "t": "14:50-15:00",
@@ -1340,7 +1340,7 @@
         "n": "",
         "intro": "被法國文豪雨果譽為「歐洲最美的廣場」，四周環繞著精雕細琢的哥德式市政廳與各個奢華的行會建築。",
         "story": "1695年曾遭法國軍隊猛烈炮擊，幾乎被夷為平地。但布魯塞爾的各個行業工會在短短幾年內，投入巨資以更華麗的巴洛克風格將其重建，強烈展現了這座城市的韌性與當時驚人的財富。",
-        "navigation": "https://maps.google.com/?q=%E5%B8%83%E9%AD%AF%E5%A1%9E%E7%88%BE%E5%A4%A7%E5%BB%A3%E5%A0%B4%20%2B%20%E5%B8%82%E6%94%BF%E5%BB%B3"
+        "navigation": "https://maps.google.com/?q=50.8467,4.3525"
       },
       {
         "t": "16:00-16:10",
@@ -1349,7 +1349,7 @@
         "n": "",
         "intro": "布魯塞爾最著名的青銅噴泉雕像(Manneken Pis)，實際體積非常嬌小。",
         "story": "關於他的傳說很多，最著名的是一名小男孩在半夜尿尿，意外澆熄了敵軍企圖炸毀城牆的火藥導火線，拯救了整座城市。如今，各國外賓來訪時常會贈送傳統服飾給他，他目前已經擁有上千套專屬衣服，並存放在專門的博物館中。",
-        "navigation": "https://maps.google.com/?q=%E5%B0%BF%E5%B0%BF%E5%B0%8F%E7%AB%A5"
+        "navigation": "https://maps.google.com/?q=50.8451,4.35"
       },
       {
         "t": "16:20-16:40",
@@ -1358,7 +1358,7 @@
         "n": "",
         "intro": "連接布魯塞爾上城(王宮政治區)與下城(舊城商業區)的幾何景觀花園。",
         "story": "在19世紀末，國王利奧波德二世為了即將到來的世界博覽會，下令拆除這裡原本破舊密集的平民街區，改建為優雅的藝術花園。站在坡頂，可以完美俯瞰布魯塞爾市區及市政廳高聳的尖塔，是絕佳的拍照點。",
-        "navigation": "https://maps.google.com/?q=%E8%97%9D%E8%A1%93%E4%B9%8B%E4%B8%98"
+        "navigation": "https://maps.google.com/?q=50.8449,4.3578"
       },
       {
         "t": "17:10",
@@ -1367,7 +1367,7 @@
         "n": "",
         "intro": "比利時國王的官方宮殿，前方是一片幾何對稱、綠意盎然的皇家公園。",
         "story": "雖然國王一家現在居住在郊區的拉肯王家別墅，但這裡仍是執行國家元首職責和接待外國使節的正式場所。每逢夏季國王休假期間，王宮會免費開放給公眾參觀，象徵王室與民眾的親近。",
-        "navigation": "https://maps.google.com/?q=%E5%B8%83%E9%AD%AF%E5%A1%9E%E7%88%BE%E7%8E%8B%E5%AE%AE%20%2B%20%E7%9A%87%E5%AE%B6%E5%85%AC%E5%9C%92%E6%95%A3%E6%AD%A5"
+        "navigation": "https://maps.google.com/?q=50.8419,4.3625"
       },
       {
         "t": "?",
@@ -1390,28 +1390,28 @@
         "tr": "步行",
         "ti": "前往布魯塞爾南站",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%E5%B8%83%E9%AD%AF%E5%A1%9E%E7%88%BE%E5%8D%97%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=50.8358,4.3358"
       },
       {
         "t": "08:08-09:01",
         "tr": "火車",
         "ti": "前往 Bruges / Brugge 布魯日",
         "n": "車程 53 分鐘，現場購票",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%20Bruges%20%2F%20Brugge%20%E5%B8%83%E9%AD%AF%E6%97%A5"
+        "navigation": "https://maps.google.com/?q=51.1977,3.2165"
       },
       {
         "t": "09:04-09:14",
         "tr": "巴士",
         "ti": "搭乘 1/2 路公車至 Onze-Lieve-Vrouwekerk 下車",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E6%90%AD%E4%B9%98%201%2F2%20%E8%B7%AF%E5%85%AC%E8%BB%8A%E8%87%B3%20Onze-Lieve-Vrouwekerk%20%E4%B8%8B%E8%BB%8A"
+        "navigation": "https://maps.google.com/?q=51.2051,3.2233"
       },
       {
         "t": "09:15-09:25",
         "tr": "步行",
         "ti": "Nepomucenus Bridge",
         "n": "拍攝聖母教堂與玫瑰碼頭",
-        "navigation": "https://maps.google.com/?q=Nepomucenus%20Bridge"
+        "navigation": "https://maps.google.com/?q=51.2049,3.2258"
       },
       {
         "t": "09:50-10:00",
@@ -1420,7 +1420,7 @@
         "n": "已訂票 10 點",
         "intro": "矗立在市集廣場上的中世紀鐘樓(Belfort)，高83公尺，需攀爬366級狹窄的螺旋階梯才能登頂。",
         "story": "建於13世紀，曾用作金庫和城市檔案館。高聳的鐘樓代表了布魯日在中世紀作為歐洲貿易中心的自由與龐大權力。它還配備了由47口鐘組成的鐘琴，至今仍定時為城市敲響美妙的音樂。",
-        "navigation": "https://maps.google.com/?q=%E5%B8%83%E9%AD%AF%E6%97%A5%E9%90%98%E6%A8%93%E7%99%BB%E5%A1%94"
+        "navigation": "https://maps.google.com/?q=51.209,3.2244"
       },
       {
         "t": "11:30-11:35",
@@ -1429,14 +1429,14 @@
         "n": "",
         "intro": "布魯日的心臟地帶，周圍環繞著色彩繽紛的行會建築與宏偉的哥德式市政廳。",
         "story": "城堡廣場(Burg)是布魯日最古老的發源地，這裡的市政廳建於1376至1420年間，是低地國家最古老的市政廳之一，見證了布魯日作為繁榮國際貿易都市的黃金時代。",
-        "navigation": "https://maps.google.com/?q=%E5%B8%82%E9%9B%86%E5%BB%A3%E5%A0%B4%20%26%20%E5%9F%8E%E5%A0%A1%E5%BB%A3%E5%A0%B4%20%26%20%E5%B8%82%E6%94%BF%E5%BB%B3%20%2B%20%E5%8D%88%E9%A4%90"
+        "navigation": "https://maps.google.com/?q=51.209,3.2244"
       },
       {
         "t": "14:00-14:10",
         "tr": "步行",
         "ti": "運河遊船",
         "n": "Nepomucenus Bridge 旁搭乘，現場購買",
-        "navigation": "https://maps.google.com/?q=%E9%81%8B%E6%B2%B3%E9%81%8A%E8%88%B9"
+        "navigation": "https://maps.google.com/?q=51.2073,3.2229"
       },
       {
         "t": "15:10-15:20",
@@ -1445,7 +1445,7 @@
         "n": "",
         "intro": "擁有115.6公尺高聳磚造尖塔的教堂，是世界第二高的磚砌建築。",
         "story": "這座教堂內隱藏著一件世界級寶物：義大利文藝復興大師米開朗基羅的雕塑作品《聖母與聖嬰》。這也是米開朗基羅生前唯一流傳到義大利境外的作品，當年由布魯日富有的布商家族購買並捐贈給教堂。",
-        "navigation": "https://maps.google.com/?q=%E8%81%96%E6%AF%8D%E6%95%99%E5%A0%82"
+        "navigation": "https://maps.google.com/?q=51.2051,3.2233"
       },
       {
         "t": "16:10-16:15",
@@ -1453,7 +1453,7 @@
         "ti": "半月啤酒廠 (品嚐啤酒 + 下午茶)",
         "o": "12:00–17:00",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%8D%8A%E6%9C%88%E5%95%A4%E9%85%92%E5%BB%A0%20%28%E5%93%81%E5%9A%90%E5%95%A4%E9%85%92%20%2B%20%E4%B8%8B%E5%8D%88%E8%8C%B6%29"
+        "navigation": "https://maps.google.com/?q=51.2023,3.2245"
       },
       {
         "t": "17:10-17:20",
@@ -1462,14 +1462,14 @@
         "n": "",
         "intro": "種滿水仙花和高大樹木的寧靜庭院，周圍是一排排白色的傳統建築。",
         "story": "中世紀時，這裡是一群被稱為「貝居安」(Beguines)的單身或寡居婦女的庇護所。她們過著虔誠獨立的生活，但沒有發下修女的終身誓言，保留了隨時離開和結婚的權利，是歐洲早期女性獨立互助社群的重要典範。",
-        "navigation": "https://maps.google.com/?q=%E8%B2%9D%E5%B1%85%E5%AE%89%E7%A6%AE%E4%BF%AE%E9%81%93%E9%99%A2%20%26%20%E6%84%9B%E4%B9%8B%E6%B9%96"
+        "navigation": "https://maps.google.com/?q=51.2014,3.2237"
       },
       {
         "t": "19:00",
         "tr": "火車",
         "ti": "前往火車站 & 返程回布魯塞爾",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%E7%81%AB%E8%BB%8A%E7%AB%99%20%26%20%E8%BF%94%E7%A8%8B%E5%9B%9E%E5%B8%83%E9%AD%AF%E5%A1%9E%E7%88%BE"
+        "navigation": "https://maps.google.com/?q=51.1977,3.2165"
       }
     ]
   },
@@ -1485,7 +1485,7 @@
         "tr": "-",
         "ti": "退房 - Appart'City Confort",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Appart%27City%20Confort"
+        "navigation": "https://maps.google.com/?q=50.8388,4.336"
       },
       {
         "t": "-",
@@ -1508,7 +1508,7 @@
         "n": "",
         "intro": "以宏偉的凱旋門為中心的廣大城市綠地公園。",
         "story": "由國王利奧波德二世下令建造，以紀念比利時獨立50週年(1880年)。龐大的建築群及巨大的U型拱門展示了比利時當時強盛的工業國力，以及從剛果殖民地所累積的驚人財富。",
-        "navigation": "https://maps.google.com/?q=%E4%BA%94%E5%8D%81%E9%80%B1%E5%B9%B4%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92"
+        "navigation": "https://maps.google.com/?q=50.8408,4.3952"
       },
       {
         "t": "12:00-12:30",
@@ -1522,7 +1522,7 @@
         "tr": "-",
         "ti": "前往布魯塞爾南站 & 簡易午餐",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%E5%B8%83%E9%AD%AF%E5%A1%9E%E7%88%BE%E5%8D%97%E7%AB%99%20%26%20%E7%B0%A1%E6%98%93%E5%8D%88%E9%A4%90"
+        "navigation": "https://maps.google.com/?q=50.8358,4.3358"
       },
       {
         "t": "~13:20",
@@ -1536,21 +1536,21 @@
         "tr": "歐洲之星",
         "ti": "搭乘歐洲之星前往阿姆斯特丹",
         "n": "車程 1h 57m",
-        "navigation": "https://maps.google.com/?q=%E6%90%AD%E4%B9%98%E6%AD%90%E6%B4%B2%E4%B9%8B%E6%98%9F%E5%89%8D%E5%BE%80%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9"
+        "navigation": "https://maps.google.com/?q=50.8358,4.3358"
       },
       {
         "t": "15:50 抵達",
         "tr": "歐洲之星",
         "ti": "抵達 Amsterdam Centraal 阿姆斯特丹中央車站",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E6%8A%B5%E9%81%94%20Amsterdam%20Centraal%20%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9%E4%B8%AD%E5%A4%AE%E8%BB%8A%E7%AB%99"
+        "navigation": "https://maps.google.com/?q=52.3792,4.9003"
       },
       {
         "t": "-",
         "tr": "-",
         "ti": "Check in - Hotel ibis Amsterdam City West",
         "n": "",
-        "navigation": "https://maps.google.com/?q=Hotel%20ibis%20Amsterdam%20City%20West"
+        "navigation": "https://maps.google.com/?q=52.3922,4.8498"
       }
     ]
   },
@@ -1568,7 +1568,7 @@
         "n": "Klook 購買",
         "intro": "被稱為「荷蘭的威尼斯」，村內沒有汽車道路，交通全靠交織的運河與平底小船。",
         "story": "早期這裡的土壤貧瘠，充滿泥炭。居民為了挖掘泥炭作為燃料，挖出了許多溝渠，這些溝渠後來積水成為運河。在挖泥炭的過程中，居民還挖出了許多古代野羊的角，村名「羊角村」便由此而來。",
-        "navigation": "https://maps.google.com/?q=%E7%BE%8A%E8%A7%92%E6%9D%91%E4%B8%80%E6%97%A5%E9%81%8A"
+        "navigation": "https://maps.google.com/?q=52.7392,6.0803"
       },
       {
         "t": "16:00-17:30",
@@ -1593,7 +1593,7 @@
         "c": "€35-52.50(含門票+車)",
         "o": "08:00-19:00",
         "n": "2026 年開放首日！建議提前預約",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%20Keukenhof%20%E5%BA%AB%E8%82%AF%E9%9C%8D%E5%A4%AB%E8%8A%B1%E5%9C%92"
+        "navigation": "https://maps.google.com/?q=52.27,4.5469"
       },
       {
         "t": "全天",
@@ -1604,14 +1604,14 @@
         "n": "世界最美春天花園；建議停留 3-4 小時",
         "intro": "被譽為世界上最美麗的春天花園，每年僅在春季短暫開放約兩個月，展出數百萬株盛開的花卉。",
         "story": "「Keukenhof」在荷蘭語中意為「廚房花園」。因為在15世紀時，這裡曾是一位女伯爵城堡的狩獵場和種植廚房用香草的腹地。如今，這裡每年秋天都會由園丁手工種下約700萬顆球莖，在春天綻放成令人驚嘆的絢麗花海。",
-        "navigation": "https://maps.google.com/?q=Keukenhof%20%E5%BA%AB%E8%82%AF%E9%9C%8D%E5%A4%AB%E9%AC%B1%E9%87%91%E9%A6%99%E8%8A%B1%E5%9C%92"
+        "navigation": "https://maps.google.com/?q=52.27,4.5469"
       },
       {
         "t": "18:00 傍晚",
         "tr": "巴士",
         "ti": "返回阿姆斯特丹",
         "n": "含來回巴士",
-        "navigation": "https://maps.google.com/?q=%E8%BF%94%E5%9B%9E%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9"
+        "navigation": "https://maps.google.com/?q=52.3792,4.9003"
       }
     ]
   },
@@ -1631,7 +1631,7 @@
         "n": "世界最大梵谷作品收藏；建議預約",
         "intro": "收藏文森·梵谷(Vincent van Gogh)作品數量最多的博物館，包括《向日葵》、《杏花盛開》、《吃馬鈴薯的人》等名作。",
         "story": "梵谷生前窮困潦倒，且深受精神疾病折磨，一生僅賣出過一幅畫。他死後，其弟西奧也相繼過世。畫作最終由西奧的遺孀約翰娜悉心保存與推廣，憑藉她的努力，最終使梵谷成為世界最受歡迎的藝術家，並促成了這座博物館的建立。",
-        "navigation": "https://maps.google.com/?q=Van%20Gogh%20Museum%20%E6%A2%B5%E8%B0%B7%E5%8D%9A%E7%89%A9%E9%A4%A8"
+        "navigation": "https://maps.google.com/?q=52.3584,4.8811"
       },
       {
         "t": "下午",
@@ -1642,7 +1642,7 @@
         "n": "荷蘭黃金時代藝術品",
         "intro": "荷蘭規模最大的博物館，宏偉的紅磚外觀融合了哥德式與文藝復興風格。",
         "story": "館內最著名的鎮館之寶是林布蘭的巨幅油畫《夜巡》。在二戰期間，為了保護這幅國寶級巨作免受納粹破壞，荷蘭人曾將畫作從畫框中取下捲起來，秘密藏在地下防空洞與堡壘中，直到戰爭結束才重見天日。",
-        "navigation": "https://maps.google.com/?q=Rijksmuseum%20%E5%9C%8B%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8"
+        "navigation": "https://maps.google.com/?q=52.36,4.8852"
       },
       {
         "t": "晚上",
@@ -1652,7 +1652,7 @@
         "n": "UNESCO 世界遺產運河區 (約 1 小時)",
         "intro": "阿姆斯特丹錯綜複雜的運河網被譽為「北方的威尼斯」，交織出獨特且浪漫的城市風貌。",
         "story": "建於17世紀的荷蘭黃金時代，當時為了防禦、水資源管理及貿易運輸，人工開鑿了紳士運河、國王運河與王子運河三條主要環狀運河，帶動了整座城市的空前繁榮，現已列為世界文化遺產。",
-        "navigation": "https://maps.google.com/?q=%E9%81%8B%E6%B2%B3%E9%81%8A%E8%88%B9"
+        "navigation": "https://maps.google.com/?q=52.3769,4.8999"
       },
       {
         "t": "-",
@@ -1675,7 +1675,7 @@
         "tr": "-",
         "ti": "前往 Schiphol 阿姆斯特丹史基浦機場 (AMS)",
         "n": "",
-        "navigation": "https://maps.google.com/?q=%E5%89%8D%E5%BE%80%20Schiphol%20%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9%E5%8F%B2%E5%9F%BA%E6%B5%A6%E6%A9%9F%E5%A0%B4%20%28AMS%29"
+        "navigation": "https://maps.google.com/?q=52.3105,4.7683"
       },
       {
         "t": "10:40 出發",
