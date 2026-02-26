@@ -266,6 +266,10 @@ def get_key(ti, day_id):
     # Norway
     if "CityBox Oslo" in ti or "Citybox Oslo" in ti or "寄放行李" in ti and "Oslo" in ti:
         return "citybox_oslo"
+    if "Flytoget" in ti:
+        return "oslo_s"  # Flytoget arrives at Oslo Central Station
+    if "市區巡禮" in ti and day_id == 12:
+        return "oslo_opera"  # Oslo city tour reference point
     if "Oslo S" in ti or "奧斯陸中央車站" in ti:
         return "oslo_s"
     if "Oslo Opera" in ti or "奧斯陸歌劇院" in ti:
@@ -292,6 +296,20 @@ def get_key(ti, day_id):
         return "voss_station"
     if "Zander K" in ti:
         return "zander_k_hotel"
+    if "飯店吃早餐" in ti and "退房" in ti and day_id == 14:
+        return "gudvangen_fjordtell"  # Breakfast & checkout at Gudvangen Fjordtell
+    if "飯店吃早餐" in ti and day_id == 15:
+        return "zander_k_hotel"  # Breakfast at Zander K Hotel Bergen
+    if "飯店吃早餐" in ti and "退房" in ti and day_id == 16:
+        return "zander_k_hotel"  # Checkout from Zander K Hotel Bergen
+    if "前往搭乘纜車" in ti:
+        return "floibanen"  # Bergen cable car (Fløibanen) lower station
+    if "晚餐" in ti and "返回飯店" in ti and day_id == 14:
+        return "zander_k_hotel"  # Bergen - return to Zander K Hotel
+    if "晚餐" in ti and "返回飯店" in ti and day_id == 15:
+        return "zander_k_hotel"  # Bergen - return to Zander K Hotel
+    if "回住宿拿行李" in ti:
+        return "zander_k_hotel"  # Pick up luggage at Zander K Hotel Bergen
     if "抵達卑爾根車站" in ti or ("Bergen" in ti and ("Station" in ti or "車站" in ti)):
         return "bergen_station"
     if "Fløibanen" in ti or "Floibanen" in ti or "纜車" in ti and "Bergen" in ti:
@@ -355,6 +373,10 @@ def get_key(ti, day_id):
         return "brussels_south"
     if "歐洲之星" in ti or "Eurostar" in ti:
         return "brussels_south"  # Departs from Brussels-South
+    if "前往月台等候" in ti:
+        return "brussels_south"  # Waiting at Brussels-South platform for Eurostar
+    if "拿行李" in ti and day_id == 20:
+        return "appartcity_brussels"  # Pick up luggage at Appart'City Brussels
     if "Brussels Airport" in ti or "布魯塞爾機場" in ti:
         return "brussels_airport"
     if "前往 Bruges" in ti or "前往Bruges" in ti or "前往布魯日" in ti:
@@ -382,6 +404,8 @@ def get_key(ti, day_id):
         return "begijnhof_bruges"
     if "Cinquantenaire" in ti or "五十週年紀念公園" in ti:
         return "cinquantenaire"
+    if "布魯塞爾市區半日遊" in ti:
+        return "grand_place"  # Brussels city tour - Grand Place as reference point
 
     # Netherlands
     if "Amsterdam Centraal" in ti or "阿姆斯特丹中央車站" in ti:
@@ -390,6 +414,8 @@ def get_key(ti, day_id):
         return "amsterdam_centraal"
     if "Giethoorn" in ti or "羊角村" in ti:
         return "giethoorn"
+    if "回程" in ti and day_id == 21:
+        return "giethoorn"  # Return from Giethoorn day trip
     if "Keukenhof" in ti or "庫肯霍夫" in ti:
         return "keukenhof"
     if "Van Gogh Museum" in ti or "梵谷博物館" in ti:
@@ -398,6 +424,8 @@ def get_key(ti, day_id):
         return "rijksmuseum"
     if "Amsterdam Canal" in ti or "阿姆斯特丹運河" in ti:
         return "amsterdam_canal"
+    if "最後購物" in ti:
+        return "rijksmuseum"  # Amsterdam last shopping day - Rijksmuseum area as reference
     if "Schiphol" in ti or "史基浦機場" in ti:
         return "schiphol"
     if "Hotel ibis Amsterdam" in ti or "Hotel Ibis Amsterdam" in ti or "宜必思酒店" in ti:
@@ -414,24 +442,21 @@ def update_navigation(data):
     for day_idx, day in enumerate(data):
         day_id = day_idx + 1
         for event in day.get("events", []):
-            nav = event.get("navigation", "")
-            if not nav:
-                # Empty navigation stays empty
-                continue
-
             ti = event.get("ti", "")
             key = get_key(ti, day_id)
 
             if key and key in verified:
                 lat, lng = verified[key]
                 new_url = maps_url(lat, lng)
-                if event["navigation"] != new_url:
+                if event.get("navigation") != new_url:
                     event["navigation"] = new_url
                     updated += 1
             else:
-                # Keep existing URL but note it
-                no_match.append(f"Day {day_id}: {ti}")
-                skipped += 1
+                nav = event.get("navigation", "")
+                if nav:
+                    # Keep existing URL but note it as unmatched
+                    no_match.append(f"Day {day_id}: {ti}")
+                    skipped += 1
 
     return updated, skipped, no_match
 
