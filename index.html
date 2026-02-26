@@ -446,9 +446,14 @@
             document.querySelector('main').scrollTo({ top: 0, behavior: 'smooth' });
         }
 
+        // --- 註冊 Service Worker (離線快取) ---
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js');
+        }
+
         // --- 當頁面載入完成後啟動 ---
         document.addEventListener('DOMContentLoaded', () => {
-            loadApp(); // 改為執行離線優先邏輯
+            loadApp();
         });
     </script>
 </body>
