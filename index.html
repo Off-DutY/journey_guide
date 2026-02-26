@@ -60,9 +60,9 @@
         <div
             class="px-4 pt-6 pb-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white rounded-b-3xl shadow-lg flex justify-between items-start">
             <div>
-                <h1 class="text-xl font-bold tracking-wider">✈️ 2026 歐洲25天大縱走</h1>
+                <h1 class="text-xl font-bold tracking-wider">✈️ 2026 歐洲24天大縱走</h1>
                 <p class="text-blue-100 text-sm mt-1 opacity-90"><i data-lucide="calendar"
-                        class="inline w-3 h-3 mb-0.5"></i> 02/26 - 03/22</p>
+                        class="inline w-3 h-3 mb-0.5"></i> 02/27 - 03/22</p>
             </div>
             <!-- 同步按鈕 (手動從雲端抓取) -->
             <button id="sync-btn" onclick="forceSync()"
@@ -139,7 +139,7 @@
                     itineraryData = JSON.parse(cachedData);
                     document.getElementById('loading-indicator').style.display = 'none';
                     initApp();
-                } catch (e) {}
+                } catch (e) { }
             }
             // 無論是否有快取，都在背景靜默抓取最新資料
             fetchData(false);
@@ -232,21 +232,6 @@
             if (type.includes('步行')) return 'footprints';
             if (type.includes('纜車')) return 'tram-front';
             return 'clock';
-        }
-
-        function getMapQuery(title) {
-            let cleaned = title
-                .replace(/退房\s*-\s*/, '')
-                .replace(/Check in\s*-\s*/, '')
-                .replace(/前往住宿\s*-\s*/, '')
-                .replace(/返回住宿\s*-\s*/, '')
-                .replace(/前往/g, '')
-                .replace(/抵達/g, '')
-                .replace(/搭乘/g, '')
-                .replace(/\(.*\)/g, '')
-                .replace(/（.*）/g, '')
-                .trim();
-            return encodeURIComponent(cleaned);
         }
 
         // --- 彈窗處理 (Modal) ---
