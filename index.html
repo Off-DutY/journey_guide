@@ -122,7 +122,7 @@
     <!-- Application Logic & Data -->
     <script>
         const DATA_URL = 'plan.json'; // 行程資料 JSON 檔案路徑
-        const CACHE_KEY = 'europe_itinerary_2026_cache'; // LocalStorage 快取金鑰
+        const CACHE_KEY = 'europe_itinerary_2026_v2_cache'; // LocalStorage 快取金鑰
 
         let itineraryData = [];
         let currentActiveDayId = 0;
@@ -130,7 +130,7 @@
         // 初始化 Lucide icon
         lucide.createIcons();
 
-        // --- 應用程式初始化邏輯 (離線優先) ---
+        // --- 應用程式初始化邏輯 (離線優先 + 背景更新) ---
         function loadApp() {
             const cachedData = localStorage.getItem(CACHE_KEY);
 
@@ -139,12 +139,10 @@
                     itineraryData = JSON.parse(cachedData);
                     document.getElementById('loading-indicator').style.display = 'none';
                     initApp();
-                } catch (e) {
-                    fetchData(false);
-                }
-            } else {
-                fetchData(false);
+                } catch (e) {}
             }
+            // 無論是否有快取，都在背景靜默抓取最新資料
+            fetchData(false);
         }
 
         // --- 手動強制同步 (點擊右上角按鈕觸發) ---
