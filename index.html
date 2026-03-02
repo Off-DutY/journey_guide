@@ -111,6 +111,13 @@
                         清除
                     </button>
                 </div>
+                <!-- 分享連結列 -->
+                <div id="share-row" class="mt-2 hidden">
+                    <button onclick="generateShareUrl()"
+                        class="w-full flex items-center justify-center gap-1.5 px-3 py-2 bg-indigo-600 text-white text-sm font-bold rounded-lg hover:bg-indigo-700 transition-colors active:scale-95">
+                        <i data-lucide="share-2" class="w-4 h-4"></i> 產生分享連結
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -167,12 +174,38 @@
         const DATA_URL = 'plan.json'; // 行程資料 JSON 檔案路徑
         const CACHE_KEY = 'europe_itinerary_2026_v2_cache'; // LocalStorage 快取金鑰
         const SHEET_URL_KEY = 'europe_itinerary_sheet_url'; // 記憶上次成功的 Sheet URL
+        const ENCRYPT_KEY = 'EuropeTrip2026!@#Journey'; // 加密金鑰
 
         let itineraryData = [];
         let currentActiveDayId = 0;
 
         // 初始化 Lucide icon
         lucide.createIcons();
+
+        // --- 加密/解密函式 (XOR + Base64 URL-safe) ---
+        function encryptUrl(plainText) {
+            const key = ENCRYPT_KEY;
+            let encrypted = '';
+            for (let i = 0; i < plainText.length; i++) {
+                encrypted += String.fromCharCode(plainText.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+            }
+            // Base64 編碼後轉為 URL-safe 格式
+            return btoa(unescape(encodeURIComponent(encrypted)))
+                .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+        }
+
+        function decryptUrl(encoded) {
+            // 還原 URL-safe Base64
+            let base64 = encoded.replace(/-/g, '+').replace(/_/g, '/');
+            while (base64.length % 4) base64 += '=';
+            const encrypted = decodeURIComponent(escape(atob(base64)));
+            const key = ENCRYPT_KEY;
+            let decrypted = '';
+            for (let i = 0; i < encrypted.length; i++) {
+                decrypted += String.fromCharCode(encrypted.charCodeAt(i) ^ key.charCodeAt(i % key.length));
+            }
+            return decrypted;
+        }
 
         // --- 應用程式初始化邏輯 (離線優先 + 背景更新) ---
         function loadApp() {
@@ -185,6 +218,25 @@
                     if (loadingEl) loadingEl.style.display = 'none';
                     initApp();
                 } catch (e) { }
+            }
+
+            // 偵測 URL 中的 ?s= 加密分享參數
+            const urlParams = new URLSearchParams(window.location.search);
+            const encryptedParam = urlParams.get('s');
+            if (encryptedParam) {
+                try {
+                    const sheetUrl = decryptUrl(encryptedParam);
+                    if (sheetUrl && sheetUrl.startsWith('http')) {
+                        localStorage.setItem(SHEET_URL_KEY, sheetUrl);
+                        updateSourceBadge();
+                        fetchSheetData(sheetUrl, false);
+                        // 清除 URL 中的 ?s= 參數，保持網址乾淨
+                        window.history.replaceState({}, '', window.location.pathname);
+                        return;
+                    }
+                } catch (e) {
+                    console.error('解密分享連結失敗:', e);
+                }
             }
 
             updateSourceBadge();
@@ -453,7 +505,42 @@
                 if (savedUrl) {
                     document.getElementById('sheet-url-input').value = savedUrl;
                 }
+                updateShareRowVisibility();
+                lucide.createIcons();
             }
+        }
+
+        function updateShareRowVisibility() {
+            const shareRow = document.getElementById('share-row');
+            const savedUrl = localStorage.getItem(SHEET_URL_KEY);
+            if (savedUrl) {
+                shareRow.classList.remove('hidden');
+            } else {
+                shareRow.classList.add('hidden');
+            }
+        }
+
+        function generateShareUrl() {
+            const sheetUrl = localStorage.getItem(SHEET_URL_KEY);
+            if (!sheetUrl) {
+                showToast('⚠️ 尚未設定 Google Sheet 連結', true);
+                return;
+            }
+            const encrypted = encryptUrl(sheetUrl);
+            const shareUrl = `${window.location.origin}${window.location.pathname}?s=${encrypted}`;
+
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                showToast('📋 分享連結已複製到剪貼簿！');
+            }).catch(() => {
+                // Fallback: 用臨時 input 複製
+                const tmp = document.createElement('input');
+                tmp.value = shareUrl;
+                document.body.appendChild(tmp);
+                tmp.select();
+                document.execCommand('copy');
+                tmp.remove();
+                showToast('📋 分享連結已複製到剪貼簿！');
+            });
         }
 
         function applySheetUrl() {
