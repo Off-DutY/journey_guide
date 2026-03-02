@@ -50,6 +50,19 @@
         #info-modal.show .modal-card {
             transform: scale(1);
         }
+
+        /* 設定面板動畫 */
+        #settings-panel {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+        }
+
+        #settings-panel.open {
+            max-height: 200px;
+            opacity: 1;
+        }
     </style>
 </head>
 
@@ -64,12 +77,41 @@
                 <p class="text-blue-100 text-sm mt-1 opacity-90"><i data-lucide="calendar"
                         class="inline w-3 h-3 mb-0.5"></i> 02/27 - 03/22</p>
             </div>
-            <!-- 同步按鈕 (手動從雲端抓取) -->
-            <button id="sync-btn" onclick="forceSync()"
-                class="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all flex items-center justify-center shadow-sm active:scale-95"
-                title="從 Google 試算表同步最新資料">
-                <i data-lucide="refresh-cw" class="w-5 h-5 text-white"></i>
-            </button>
+            <div class="flex items-center gap-2">
+                <!-- 同步按鈕 (手動從雲端抓取) -->
+                <button id="sync-btn" onclick="forceSync()"
+                    class="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all flex items-center justify-center shadow-sm active:scale-95"
+                    title="從 Google 試算表同步最新資料">
+                    <i data-lucide="refresh-cw" class="w-5 h-5 text-white"></i>
+                </button>
+                <!-- 設定按鈕 -->
+                <button id="settings-btn" onclick="toggleSettings()"
+                    class="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-all flex items-center justify-center shadow-sm active:scale-95"
+                    title="設定資料來源">
+                    <i data-lucide="settings" class="w-5 h-5 text-white"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- 設定面板 -->
+        <div id="settings-panel" class="bg-gradient-to-r from-blue-50 to-indigo-50 px-4">
+            <div class="py-3 max-w-lg mx-auto">
+                <div class="flex items-center gap-2 mb-2">
+                    <span id="source-badge" class="text-xs font-bold px-2 py-0.5 rounded-full"></span>
+                </div>
+                <div class="flex gap-2">
+                    <input id="sheet-url-input" type="text" placeholder="貼上 Google Sheet CSV 連結"
+                        class="flex-1 text-sm px-3 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent bg-white">
+                    <button onclick="applySheetUrl()"
+                        class="px-3 py-2 bg-blue-600 text-white text-sm font-bold rounded-lg hover:bg-blue-700 transition-colors active:scale-95 flex-shrink-0">
+                        套用
+                    </button>
+                    <button onclick="clearSheetUrl()"
+                        class="px-3 py-2 bg-gray-200 text-gray-600 text-sm font-bold rounded-lg hover:bg-gray-300 transition-colors active:scale-95 flex-shrink-0">
+                        清除
+                    </button>
+                </div>
+            </div>
         </div>
 
         <!-- Day Tabs (Horizontal Scrollable) -->
@@ -124,6 +166,7 @@
     <script>
         const DATA_URL = 'plan.json'; // 行程資料 JSON 檔案路徑
         const CACHE_KEY = 'europe_itinerary_2026_v2_cache'; // LocalStorage 快取金鑰
+        const SHEET_URL_KEY = 'europe_itinerary_sheet_url'; // 記憶上次成功的 Sheet URL
 
         let itineraryData = [];
         let currentActiveDayId = 0;
@@ -138,19 +181,34 @@
             if (cachedData) {
                 try {
                     itineraryData = JSON.parse(cachedData);
-                    document.getElementById('loading-indicator').style.display = 'none';
+                    const loadingEl = document.getElementById('loading-indicator');
+                    if (loadingEl) loadingEl.style.display = 'none';
                     initApp();
                 } catch (e) { }
             }
+
+            updateSourceBadge();
+
             // 無論是否有快取，都在背景靜默抓取最新資料
-            fetchData(false);
+            const savedSheetUrl = localStorage.getItem(SHEET_URL_KEY);
+            if (savedSheetUrl) {
+                fetchSheetData(savedSheetUrl, false);
+            } else {
+                fetchData(false);
+            }
         }
 
         // --- 手動強制同步 (點擊右上角按鈕觸發) ---
         function forceSync() {
             const syncIcon = document.querySelector('#sync-btn i');
             syncIcon.classList.add('animate-spin');
-            fetchData(true);
+
+            const savedSheetUrl = localStorage.getItem(SHEET_URL_KEY);
+            if (savedSheetUrl) {
+                fetchSheetData(savedSheetUrl, true);
+            } else {
+                fetchData(true);
+            }
         }
 
         // --- 從 plan.json 讀取行程資料 ---
@@ -166,7 +224,8 @@
                 if (parsedData.length > 0) {
                     itineraryData = parsedData;
                     localStorage.setItem(CACHE_KEY, JSON.stringify(itineraryData));
-                    document.getElementById('loading-indicator').style.display = 'none';
+                    const loadingEl = document.getElementById('loading-indicator');
+                    if (loadingEl) loadingEl.style.display = 'none';
                     initApp();
                     if (isManual) showToast('✅ 行程資料同步成功！');
                 } else {
@@ -181,6 +240,252 @@
                 }
             } finally {
                 stopSyncIcon();
+            }
+        }
+
+        // --- 從 Google Sheet CSV 讀取行程資料 ---
+        async function fetchSheetData(sheetUrl, isManual = false) {
+            try {
+                const url = `${sheetUrl}${sheetUrl.includes('?') ? '&' : '?'}t=${new Date().getTime()}`;
+                const response = await fetch(url);
+
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+                const csvText = await response.text();
+                const parsedData = csvToItinerary(csvText);
+
+                if (parsedData.length > 0) {
+                    itineraryData = parsedData;
+                    localStorage.setItem(CACHE_KEY, JSON.stringify(itineraryData));
+                    localStorage.setItem(SHEET_URL_KEY, sheetUrl);
+                    const loadingEl = document.getElementById('loading-indicator');
+                    if (loadingEl) loadingEl.style.display = 'none';
+                    initApp();
+                    updateSourceBadge();
+                    if (isManual) showToast('✅ Google Sheet 同步成功！');
+                } else {
+                    if (isManual) showToast('⚠️ 抓取成功但資料為空', true);
+                }
+            } catch (err) {
+                console.error('載入 Google Sheet 失敗:', err);
+                if (isManual) {
+                    showToast('❌ 同步失敗：無法載入 Google Sheet', true);
+                } else if (itineraryData.length === 0) {
+                    showError("載入失敗", "無法載入 Google Sheet 資料，請確認連結或網路狀態。");
+                }
+            } finally {
+                stopSyncIcon();
+            }
+        }
+
+        // --- CSV 解析：將 CSV 文字轉為二維陣列 ---
+        function parseCSV(csvText) {
+            const rows = [];
+            let current = '';
+            let inQuotes = false;
+            let row = [];
+
+            for (let i = 0; i < csvText.length; i++) {
+                const ch = csvText[i];
+                const next = csvText[i + 1];
+
+                if (inQuotes) {
+                    if (ch === '"' && next === '"') {
+                        current += '"';
+                        i++;
+                    } else if (ch === '"') {
+                        inQuotes = false;
+                    } else {
+                        current += ch;
+                    }
+                } else {
+                    if (ch === '"') {
+                        inQuotes = true;
+                    } else if (ch === ',') {
+                        row.push(current.trim());
+                        current = '';
+                    } else if (ch === '\n' || (ch === '\r' && next === '\n')) {
+                        row.push(current.trim());
+                        current = '';
+                        if (row.length > 1 || row[0] !== '') rows.push(row);
+                        row = [];
+                        if (ch === '\r') i++;
+                    } else {
+                        current += ch;
+                    }
+                }
+            }
+            // 最後一行
+            row.push(current.trim());
+            if (row.length > 1 || row[0] !== '') rows.push(row);
+
+            return rows;
+        }
+
+        // --- CSV 轉換為行程 JSON ---
+        function csvToItinerary(csvText) {
+            const rows = parseCSV(csvText);
+            if (rows.length < 2) return [];
+
+            const headers = rows[0];
+            const colIdx = {};
+            headers.forEach((h, i) => colIdx[h] = i);
+
+            const get = (row, colName) => {
+                const idx = colIdx[colName];
+                return (idx !== undefined && idx < row.length) ? row[idx] : '';
+            };
+
+            // 組合時間欄位 t
+            const buildTime = (row) => {
+                const depart = get(row, '出發時間');
+                const arrive = get(row, '抵達時間');
+                const startJourney = get(row, '啟程時間');
+
+                if (depart && arrive) return `${depart}-${arrive}`;
+                if (arrive && startJourney) return `${arrive}-${startJourney}`;
+                if (arrive) return `${arrive} 抵達`;
+                if (startJourney) return `${startJourney} 出發`;
+                return '-';
+            };
+
+            // 組合日期顯示 (e.g. "2/26 (週四)")
+            const buildDateDisplay = (dateStr, weekday) => {
+                if (!dateStr) return '';
+                const parts = dateStr.split('/');
+                if (parts.length >= 3) {
+                    const m = parseInt(parts[1], 10);
+                    const d = parseInt(parts[2], 10);
+                    return weekday ? `${m}/${d} (${weekday})` : `${m}/${d}`;
+                }
+                return dateStr;
+            };
+
+            // 轉換 dateStr 為 ISO 格式 (e.g. "2026/02/26" → "2026-02-26")
+            const toISODate = (dateStr) => {
+                if (!dateStr) return '';
+                return dateStr.replace(/\//g, '-');
+            };
+
+            // 依 Day 分群
+            const dayMap = new Map();
+
+            for (let i = 1; i < rows.length; i++) {
+                const row = rows[i];
+                const dayNum = get(row, 'Day');
+                if (dayNum === '') continue;
+
+                const dayKey = parseInt(dayNum, 10);
+                if (isNaN(dayKey)) continue;
+
+                if (!dayMap.has(dayKey)) {
+                    const country = get(row, '國家');
+                    const city = get(row, '城市');
+                    const dateRaw = get(row, 'Date');
+                    const weekday = get(row, '星期');
+
+                    dayMap.set(dayKey, {
+                        id: dayKey,
+                        day: `Day ${dayKey}`,
+                        date: buildDateDisplay(dateRaw, weekday),
+                        dateStr: toISODate(dateRaw),
+                        location: (country && city) ? `${country} ${city}` : (country || city || ''),
+                        events: []
+                    });
+                }
+
+                const dayObj = dayMap.get(dayKey);
+
+                // 更新 location 如果目前的 row 有更新的國家/城市
+                const rowCountry = get(row, '國家');
+                const rowCity = get(row, '城市');
+                if (rowCountry && rowCity) {
+                    const newLoc = `${rowCountry} ${rowCity}`;
+                    if (!dayObj.location.includes(newLoc.split(' ').pop())) {
+                        // 保留最後出現的 location
+                    }
+                }
+
+                // 更新 date/dateStr 如果之前為空
+                const dateRaw = get(row, 'Date');
+                const weekday = get(row, '星期');
+                if (dateRaw && !dayObj.dateStr) {
+                    dayObj.date = buildDateDisplay(dateRaw, weekday);
+                    dayObj.dateStr = toISODate(dateRaw);
+                }
+
+                const event = {
+                    t: buildTime(row),
+                    tr: get(row, '交通方式') || '-',
+                    ti: get(row, '行程')
+                };
+
+                // 跳過沒有行程名稱的空列
+                if (!event.ti) continue;
+
+                const cost = get(row, '費用');
+                if (cost) event.c = cost;
+
+                const hours = get(row, '開放時間');
+                if (hours) event.o = hours;
+
+                const note = get(row, '備註');
+                if (note) event.n = note;
+
+                const intro = get(row, '景點介紹');
+                if (intro) event.intro = intro;
+
+                // navigation 欄位（網址）目前不使用，因為是遊記連結而非 Google Maps
+
+                dayObj.events.push(event);
+            }
+
+            // 排序並回傳
+            return Array.from(dayMap.values()).sort((a, b) => a.id - b.id);
+        }
+
+        // --- 設定面板相關 ---
+        function toggleSettings() {
+            const panel = document.getElementById('settings-panel');
+            panel.classList.toggle('open');
+            if (panel.classList.contains('open')) {
+                const savedUrl = localStorage.getItem(SHEET_URL_KEY);
+                if (savedUrl) {
+                    document.getElementById('sheet-url-input').value = savedUrl;
+                }
+            }
+        }
+
+        function applySheetUrl() {
+            const input = document.getElementById('sheet-url-input');
+            const url = input.value.trim();
+            if (!url) {
+                showToast('⚠️ 請貼上 Google Sheet CSV 連結', true);
+                return;
+            }
+            showToast('⏳ 正在載入 Google Sheet...');
+            fetchSheetData(url, true);
+            toggleSettings();
+        }
+
+        function clearSheetUrl() {
+            localStorage.removeItem(SHEET_URL_KEY);
+            document.getElementById('sheet-url-input').value = '';
+            updateSourceBadge();
+            showToast('✅ 已清除，將使用本地 plan.json');
+            toggleSettings();
+            fetchData(false);
+        }
+
+        function updateSourceBadge() {
+            const badge = document.getElementById('source-badge');
+            const savedUrl = localStorage.getItem(SHEET_URL_KEY);
+            if (savedUrl) {
+                badge.textContent = '📊 資料來源：Google Sheet';
+                badge.className = 'text-xs font-bold px-2 py-0.5 rounded-full bg-green-100 text-green-700 border border-green-200';
+            } else {
+                badge.textContent = '📁 資料來源：本地 plan.json';
+                badge.className = 'text-xs font-bold px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 border border-gray-200';
             }
         }
 
