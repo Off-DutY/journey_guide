@@ -487,7 +487,8 @@
                 const intro = get(row, '景點介紹');
                 if (intro) event.intro = intro;
 
-                // navigation 欄位（網址）目前不使用，因為是遊記連結而非 Google Maps
+                const navUrl = get(row, 'navigation');
+                if (navUrl) event.navigation = navUrl;
 
                 dayObj.events.push(event);
             }
