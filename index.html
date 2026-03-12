@@ -257,8 +257,10 @@
 
             const savedSheetUrl = localStorage.getItem(SHEET_URL_KEY);
             if (savedSheetUrl) {
+                showToast('⏳ 正在從 Google Sheet 同步...');
                 fetchSheetData(savedSheetUrl, true);
             } else {
+                showToast('⏳ 正在從 plan.json 同步...');
                 fetchData(true);
             }
         }
