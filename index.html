@@ -252,8 +252,8 @@
 
         // --- 手動強制同步 (點擊右上角按鈕觸發) ---
         function forceSync() {
-            const syncIcon = document.querySelector('#sync-btn i');
-            syncIcon.classList.add('animate-spin');
+            const syncIcon = document.querySelector('#sync-btn svg');
+            if (syncIcon) syncIcon.classList.add('animate-spin');
 
             const savedSheetUrl = localStorage.getItem(SHEET_URL_KEY);
             if (savedSheetUrl) {
@@ -580,7 +580,7 @@
         }
 
         function stopSyncIcon() {
-            const syncIcon = document.querySelector('#sync-btn i');
+            const syncIcon = document.querySelector('#sync-btn svg');
             if (syncIcon) syncIcon.classList.remove('animate-spin');
         }
 
